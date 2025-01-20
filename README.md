@@ -395,6 +395,70 @@ We at TurboML are democratising real time ML / AI. Here's a curated list of awes
     Demonstrates building a real-time anomaly detection system for stock market data using Quix Streams, Redpanda, and Docker.  
     [Watch here](https://www.youtube.com/watch?v=RUfVVOhihEA)
 
+16. **"Real Time ML: Challenges and Solutions - Chip Huyen"**  
+    Explores challenges in implementing real-time machine learning systems, including latency, train-predict inconsistency, and managing streaming infrastructure, while discussing potential solutions and architectures.  
+    [Watch here](https://www.youtube.com/watch?v=kbxF3fT0YAI)
+
+17. **"Real-time ML Model Monitoring with Data Sketches and Apache Pinot"**  
+    Demonstrates how Uber leverages Apache Pinot as a data sketch store for ML model monitoring, using data profiling and sketch-based solutions to enable efficient and scalable monitoring across different data sources.  
+    [Watch here](https://www.youtube.com/watch?v=sDkZqZbWNq8)
+
+18. **"MLOps vs ML Orchestration // Ketan Umare // MLOps Podcast #183"**  
+    Explores real-time machine learning challenges in traffic prediction and fraud detection, highlighting the importance of buffering and damping reactions in ML systems.  
+    [Watch here](https://www.youtube.com/watch?v=vAt-FGqHSn0)
+
+19. **"Lessons Learned: The Journey to Real-Time Machine Learning at Instacart"**  
+    Guanghua Shu discusses Instacart's transition from batch-oriented to real-time ML systems, covering infrastructure changes, use cases, and key lessons learned in implementing real-time ML for their e-commerce platform.  
+    [Watch here](https://www.youtube.com/watch?v=a9aoRDL4gJ0)
+
+20. **"Leveraging GraphQL for Continual Learning in Real-Time ML Systems"**  
+    Discusses how to set up real-time infrastructure and continual learning using GraphQL for machine learning systems, addressing limitations of batch-training paradigms and enabling adaptive models.  
+    [Watch here](https://www.youtube.com/watch?v=21pJJ4J86zA)
+
+21. **"Real-Time ML Insights with Richmond Alake"**  
+    Explores real-time machine learning tools, techniques, and career insights with Richmond Alake, a Machine Learning Architect at Slalom Build, covering his work experiences and AI startups.  
+    [Watch here](https://www.youtube.com/watch?v=OCHahSA1-YM)
+
+22. **"Why real time event streaming pattern is indispensable for an AI native future"**  
+    Discusses the importance of distributed event streaming for real-time analytics and AI-powered experiences, exploring its applications in data collection, enrichment, and measuring drift and explainability.  
+    [Watch here](https://www.youtube.com/watch?v=zCey3ZXpEZk)
+
+23. **"Realtime Prediction with Machine Learning and Data Transform with Redpanda"**  
+    Explores building efficient AI applications using stateless pipelines and WebAssembly-powered streaming data transforms, demonstrating how to simplify data architecture for real-time analytics and machine learning.  
+    [Watch here](https://www.youtube.com/watch?v=wOJnqdjeaEc)
+
+24. **"Build Real-time Machine Learning Apps on Generative AI with Kafka Streams"**  
+    Stepan Hinger discusses integrating large language models with data streaming using Kafka, demonstrating real-time AI applications for unstructured data analysis, customer support automation, and business intelligence through a framework called Area.  
+    [Watch here](https://www.youtube.com/watch?v=sgWxkFV7U0g)
+
+25. **"Feeding ML models with the data from the databases in real-time - DevConf.CZ 2024"**  
+    Vojtech Juranek demonstrates how to use Debezium to ingest real-time data from databases into machine learning models, showcasing a live demo with TensorFlow and discussing challenges and solutions in implementing such systems.  
+    [Watch here](https://www.youtube.com/watch?v=rem9QFHlHIU)
+
+26. **"Architecting Data and Machine Learning Platforms"**  
+    Marco Tranquillin and Firat Tekiner preview their upcoming book, covering the entire data lifecycle in cloud environments, from ingestion to activation, with a cloud-agnostic approach to data and ML platform architecture.  
+    [Watch here](https://www.youtube.com/watch?v=uVifHHNpheA)
+
+27. **"Real-Time ML Workflows at Capital One with Disha Singla"**  
+    Disha Singla, Senior Director of Machine Learning Engineering at Capital One, discusses democratizing AI through reusable libraries and workflows for citizen data scientists, focusing on time series analysis, anomaly detection, and fraud prevention.  
+    [Watch here](https://www.youtube.com/watch?v=2ZD8pwLMOtM)
+
+28. **"ML Auto-Retraining: Update Your Model in Real Time"**  
+    Discusses real-time ML techniques for cybersecurity, including aggregate engines for adapting to attacker shifts, Redis-based key-value stores for tracking indicators of compromise, and an auto-retraining framework for regularly updating models on different cadences.  
+    [Watch here](https://www.youtube.com/watch?v=vt8FE7YYudY)
+
+29. **"Real-Time Data Processing for ML Feature Engineering | Weiran Liu and Ping Chen"**  
+    Discusses Meta's evolution of real-time data processing infrastructure for machine learning, covering applications in recommendation systems, content understanding, and fraud detection, with a focus on their latest platform "Extreme" and its use in real-time feature engineering.  
+    [Watch here](https://www.youtube.com/watch?v=ga2StG7DjF4)
+
+30. **"Building Real-Time ML Pipelines: Challenges and Solutions"**  
+    Yaron Haviv discusses challenges in productizing AI/ML, introduces MLOps and feature stores, and demonstrates building real-time ML pipelines using the open-source MLRun framework, with examples of churn prediction and fraud detection use cases.  
+    [Watch here](https://www.youtube.com/watch?v=ms2OU3noTOo)
+
+31. **"Apache Spark and Apache Kafka for Real-Time Machine Learning"**  
+    This webinar explores the integration of Apache Kafka and Apache Spark for building scalable real-time machine learning pipelines, covering fundamentals of real-time ML, challenges faced by data teams, and optimal usage of these technologies for data processing and analysis.  
+    [Watch here](https://dzone.com/events/video-library/apache-spark-and-apache-kafka=for-real-time-machine=learning)
+
 
 ## Vendors / Platforms
 
