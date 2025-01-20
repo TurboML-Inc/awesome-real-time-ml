@@ -333,6 +333,68 @@ We at TurboML are democratising real time ML / AI. Here's a curated list of awes
 - [Nubank acquires Hyperplane to accelerate AI-first strategy](https://www.fintechfutures.com/2024/06/brazils-nubank-buys-ai-powered-data-intelligence-start-up-hyperplane/)
 - [Beyond prediction machines](https://building.nubank.com.br/beyond-prediction-machines/)
 
+## Videos
+
+1. **"Bring the power of machine learning to the world of streaming data"**  
+   This video from Google Cloud Next demonstrates how to deploy and manage complete ML pipelines for real-time inference and predictions using Dataflow ML.  
+   [Watch here](https://www.youtube.com/watch?v=SGsD0K1s8cI)
+
+2. **"Jukebox: Spotify's Feature Infrastructure"**  
+   Explains how Spotify manages features for machine learning, including their approach to feature stores and real-time feature serving.  
+   [Watch here](https://www.youtube.com/watch?v=qv2DtDvpWx8)
+
+3. **"Scaling Up Machine Learning in Instacart Search for the 2020 Surge"**  
+   Discusses how Instacart scaled up its machine learning capabilities to handle the surge in demand during 2020, likely including real-time aspects of their search system.  
+   [Watch here](https://www.youtube.com/watch?v=qRBFM3iGyhA)
+
+4. **"How Booking.com Used Data Streaming to Put Travel Decisions into Customers' Hands"**  
+   Explains how Booking.com leveraged data streaming to provide a comprehensive booking experience, including the use of Confluent's data streaming platform.  
+   [Watch here](https://www.youtube.com/watch?v=1Tg_MEwSyRc)
+
+5. **"Inside Coupang's AI-Powered Fulfillment Center"**  
+   Showcases Coupang's newest fulfillment center, highlighting its AI-directed nerve center and army of robots for efficient operations.  
+   [Watch here](https://www.youtube.com/watch?v=ZboD8Rg4j4k)
+
+6. **"Real-time Machine Learning: Architecture and Challenges"**  
+   Explores architectures and challenges in implementing real-time machine learning systems, emphasizing the importance of fresh data and low-latency predictions.  
+   [Watch here](https://www.youtube.com/watch?v=S4A8QWN1G7s)
+
+7. **"Batch-scoring vs Real-time ML systems"**  
+   Compares batch scoring and real-time machine learning systems, discussing their advantages, disadvantages, and implementation differences.  
+   [Watch here](https://www.youtube.com/watch?v=sVodCJyo6I8)
+
+8. **"Journey to Real-Time ML: A Look at Feature Platforms & Modern RT ML Architectures Using Tecton"**  
+   Demonstrates how to build a robust MLOps platform using MLflow and Tecton on Databricks for managing real-time ML models and features, with insights from FanDuel's implementation.  
+   [Watch here](https://www.youtube.com/watch?v=j9rolKGk1Ns)
+
+9. **"How to Build a Real Time ML Pipeline for Fraud Prediction"**  
+   Demonstrates how to build a machine learning pipeline with real-time feature engineering for fraud detection, using Iguazio's data science platform to streamline the process from data ingestion to model deployment and monitoring.  
+   [Watch here](https://www.youtube.com/watch?v=55Bsm5x1WzM)
+
+10. **"Real-Time ML: Features and Inference // Sasha Ovsankin and Rupesh Gupta // MLOps Podcast #135”**  
+    Explores challenges and solutions in implementing real-time machine learning features and inference at LinkedIn.  
+    [Watch here](https://www.youtube.com/watch?v=cZpGgobIFxU)
+
+11. **"Need for Speed: Machine Learning in the Era of Real-Time"**  
+    Explores the evolution of real-time machine learning, discussing challenges in latency, data freshness, and resource efficiency, while providing insights on implementing RTML solutions.  
+    [Watch here](https://www.youtube.com/watch?v=MWagqntxgeg)
+
+12. **"Real-Time Event Processing for AI/ML with Numaflow // Sri Harsha Yayi // DE4AI"**  
+    Discusses Intuit's development of Numaflow, an open-source platform designed to simplify event processing and inference on streaming data for machine learning applications.  
+    [Watch here](https://www.youtube.com/watch?v=-EAexlXbN1I)
+
+13. **"ML Batch vs streaming vs real-time data processing"**  
+    Compares batch, streaming, and real-time data processing for machine learning, discussing misconceptions, costs, and decision-making criteria.  
+    [Watch here](https://www.youtube.com/watch?v=87lj-A5vvAQ)
+
+14. **"Machine Learning is Going Real-Time"**  
+    Chip Huyen explores the state, use cases, solutions, and challenges of real-time machine learning in production across US and Chinese companies.  
+    [Watch here](https://www.youtube.com/watch?v=t0gcsYEnHRY)
+
+15. **"Realtime Stock Market Anomaly Detection using ML Models | An End to End Data Engineering Project"**  
+    Demonstrates building a real-time anomaly detection system for stock market data using Quix Streams, Redpanda, and Docker.  
+    [Watch here](https://www.youtube.com/watch?v=RUfVVOhihEA)
+
 
 ## Vendors / Platforms
 
