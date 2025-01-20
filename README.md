@@ -105,6 +105,19 @@ We at TurboML are democratising real time ML / AI. Here's a curated list of awes
 | **[Bytewax](https://bytewax.io/)** | Open-source stream processing framework for building real-time data applications in Python, enabling real-time feature computation for ML models. | Not specified |
 | **[Kaskada](https://kaskada.com/)** | Real-Time AI streaming engine offering real-time aggregation, event detection, and history replay for ML feature computation. | Yes, integrated |
 
+## Conferences
+
+| Conference | Date | Location | Format |
+|------------|------|----------|--------|
+| **[Real-Time Analytics Summit 2025](https://startree.ai/rta-summit)** | May 14, 2025 | Virtual | Virtual |
+| **[Feature Store Summit 2024](https://www.featurestoresummit.com/)** | October 15, 2024 | Virtual | Virtual |
+| **[MLOps World: Annual Machine Learning in Production Summit](https://mlopsworld.com/)** | November 7-8, 2024 | Varies (past summits in San Francisco, Amsterdam, Tokyo) | Hybrid |
+| **[Data + AI Summit 2025](https://www.databricks.com/dataaisummit)** | June 9-12, 2025 | San Francisco | Hybrid |
+| **[Conference on Machine Learning and Systems (MLSys) 2025](https://mlsys.org/)** | May 12-15, 2025 | Santa Clara | In-person |
+| **[AI & Big Data Expo North America 2025](https://www.ai-expo.net/northamerica/)** | June 4-5, 2025 | Santa Clara | In-person |
+| **[Data Innovation Summit 2025](https://datainnovationsummit.com/)** | May 7-8, 2025 | Kistamässan, Stockholm | Hybrid |
+| **[Machine Learning Prague 2025](https://www.mlprague.com/)** | April 28, 2025 | Prague | Hybrid |
+
 
 ## Contributing
 
