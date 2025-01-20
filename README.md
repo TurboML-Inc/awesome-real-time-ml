@@ -60,6 +60,26 @@ We at TurboML are democratising real time ML / AI. Here's a curated list of awes
    - [Google Cloud Vertex AI](https://cloud.google.com/vertex-ai)
    - [Azure Machine Learning](https://azure.microsoft.com/en-us/services/machine-learning/)
 
+## Traditional ML vs Real-Time ML
+
+| Aspect | Traditional ML | Real-Time ML |
+|--------|----------------|--------------|
+| **Data Processing** | Processes static, historical datasets in batches. | Continuously ingests and processes streaming data in real-time. |
+| **Model Training** | Models are trained offline using complete datasets. | Models are updated incrementally as new data arrives, often using online learning algorithms. |
+| **Latency** | Can tolerate higher latency in processing and predictions. | Requires low-latency processing and near-instantaneous predictions. |
+| **Scalability** | Typically scales vertically with more powerful hardware. | Often requires horizontal scalability to handle high-volume data streams. |
+| **Infrastructure** | Can run on standard computing resources. | Often requires specialized streaming infrastructure like Apache Kafka or Apache Flink. |
+| **Adaptability** | Models are less adaptive to changing patterns without manual retraining. | Models can adapt to concept drift and evolving patterns in real-time. |
+| **Feature Engineering** | Features are often engineered manually and in advance. | Features may be generated on-the-fly or use automated feature extraction techniques. |
+| **Model Deployment** | Models are deployed as static versions, updated periodically. | Models are continuously updated and deployed in a streaming fashion. |
+| **Use Cases** | Suitable for predictive analytics, customer segmentation, and offline recommendations. | Ideal for fraud detection, real-time bidding, and personalized recommendations. |
+| **Data Volume** | Can work effectively with smaller datasets. | Typically requires larger volumes of data for accurate real-time predictions. |
+| **Computational Resources** | Generally less computationally intensive. | Often requires more computational power to process streaming data continuously. |
+| **Monitoring** | Periodic model performance checks are sufficient. | Requires continuous monitoring of model performance and data quality. |
+| **Feedback Loop** | Feedback is incorporated in batch updates. | Immediate feedback integration for rapid model adjustments. |
+| **Complexity** | Generally simpler to implement and maintain. | More complex, requiring specialized knowledge in streaming architectures and online learning algorithms. |
+| **Time-to-Insight** | Longer time from data collection to actionable insights. | Near-immediate insights from incoming data streams. |
+
 ## Contributing
 
 Your contributions are always welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first.
