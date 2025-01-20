@@ -80,6 +80,32 @@ We at TurboML are democratising real time ML / AI. Here's a curated list of awes
 | **Complexity** | Generally simpler to implement and maintain. | More complex, requiring specialized knowledge in streaming architectures and online learning algorithms. |
 | **Time-to-Insight** | Longer time from data collection to actionable insights. | Near-immediate insights from incoming data streams. |
 
+## Vendors / Platforms
+
+| Vendor | Description | Feature Store |
+|--------|-------------|---------------|
+| **[Tecton](https://www.tecton.ai/)** | Real-time Feature Platform offering Feature Engine, Feature Store, and Feature Repo for comprehensive Feature Management. Supports batch and streaming features, ensures data correctness, and provides low-latency serving for real-time ML applications. | Yes, integrated |
+| **[Hazelcast](https://hazelcast.com/)** | Unified Real-Time Data Platform with distributed compute engine and fast data store for Stream Processing. Enables real-time feature computation and model serving for ML applications. | No, but integrates with Feast |
+| **[Hopsworks](https://www.hopsworks.ai/)** | Serverless Feature Store supporting both online and offline features for real-time ML. Includes Model Management, Vector Database, and data-mesh architecture for efficient feature serving. | Yes, core offering |
+| **[Iguazio](https://www.iguazio.com/)** | End-to-end platform focused on real-time ML and GenAI, offering Data Management, Development & CI/CD, Deployment, and Monitoring & LiveOps for ML models. | Yes, integrated |
+| **[Xenonstack](https://www.xenonstack.com/)** | End-to-end real-time analytics platform, offering IoT Analytics, Stream and Batch Processing Integration, and Streaming Visualization Solutions for real-time ML applications. | Not specified |
+| **[Abacus AI](https://abacus.ai/)** | Comprehensive platform offering LLMOps and MLOps solutions, including Custom Fine-Tunes, Vector Store, and AI Agent Workflow for real-time ML model deployment and serving. | Yes, Real-Time ML Feature Store |
+| **[Rockset](https://rockset.com/)** | Real-time analytics database offering fast search, filtering, aggregations, and joins using standard SQL. Enables real-time feature computation and model serving for ML applications. | Not specified |
+| **[Chalk AI](https://chalk.ai/)** | Data platform for real-time machine learning with feature pipelines, built-in scheduling, streaming, and caching for efficient feature computation and serving. | Yes, data source agnostic |
+| **[Fennel](https://fennel.ai/)** | Real-Time Feature Platform for authoring, computing, storing, serving, monitoring, and governing real-time and batch ML features. | Yes, integrated |
+| **[Featurebyte](https://www.featurebyte.com/)** | Feature Platform offering automatic feature generation, experimentation on live data, and AI data pipeline deployment for real-time ML applications. | Yes, integrated |
+| **[Featureform](https://www.featureform.com/)** | Open Source Feature Store for defining, managing, and deploying ML features in real-time. | Yes, core offering |
+| **[Molecula](https://www.molecula.com/)** | Data-centric AI infrastructure and database (Featurebase) with AI Automation and knowledge retrieval Platform (Ensemble) for real-time ML applications. | Yes, one of the first online feature stores |
+| **[Vespa](https://vespa.ai/)** | Fully featured search engine and vector database with cloud offering, providing real-time feature-store functionality for ML applications. | Yes, real-time feature-store functionality |
+| **[H2O.ai](https://h2o.ai/)** | Comprehensive AI platform offering solutions from MLOps to LLMOps and SLMs, including real-time feature management and automation for ML applications. | Yes, with feature management and automation |
+| **[SingleStore](https://www.singlestore.com/)** | Real-time data platform for reading, writing, and reasoning on petabyte-scale data, enabling real-time feature computation and model serving for ML applications. | Can be used as a feature store |
+| **[DataStax](https://www.datastax.com/)** | Suite of data management solutions built on Apache Cassandra for handling real-time data at scale, supporting real-time feature computation for ML models. | Can be used as a feature store |
+| **[DataRobot](https://www.datarobot.com/)** | Complete ML and GenAI platform with Automated Machine Learning and Feature Engineering, supporting real-time feature computation and model serving. | Can integrate with external feature stores |
+| **[Feast](https://feast.dev/)** | Open Source Feature Store, widely used and integrated with various ML projects and vendors for real-time feature serving. | Yes, core offering |
+| **[Bytewax](https://bytewax.io/)** | Open-source stream processing framework for building real-time data applications in Python, enabling real-time feature computation for ML models. | Not specified |
+| **[Kaskada](https://kaskada.com/)** | Real-Time AI streaming engine offering real-time aggregation, event detection, and history replay for ML feature computation. | Yes, integrated |
+
+
 ## Contributing
 
 Your contributions are always welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first.
