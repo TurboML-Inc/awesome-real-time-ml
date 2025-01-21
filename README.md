@@ -382,113 +382,65 @@ We at TurboML are democratising real time ML / AI. Here's a curated list of awes
     - [Glassdoor uses machine learning to tell users if they're being paid fairly](https://www.zdnet.com/article/glassdoor-uses-machine-learning-to-tell-users-if-theyre-being-paid-fairly/)
       This article discusses how Glassdoor uses machine learning to analyze millions of salary reports and real-time supply and demand trends in local job markets to determine fair pay.
 
-13. **Instacart** (E-commerce, Grocery Delivery, Technology)
+14. **Dailymotion**
 
-- [Lessons Learned: The Journey to Real-Time Machine Learning at Instacart](https://www.instacart.com/company/how-its-made/lessons-learned-the-journey-to-real-time-machine-learning-at-instacart/)
-- [How Instacart Modernized the Prediction of Real Time Availability for Hundreds of Millions of Items](https://tech.instacart.com/how-instacart-modernized-the-prediction-of-real-time-availability-for-hundreds-of-millions-of-items-59b2a82c89fe)
-- [Predicting the real-time availability of 200 million grocery items](https://tech.instacart.com/predicting-real-time-availability-of-200-million-grocery-items-in-us-canada-stores-61f43a16eafe)
-- [Griffin: How Instacart's ML Platform Tripled ML Applications in a year](https://www.instacart.com/company/how-its-made/griffin-how-instacarts-ml-platform-tripled-ml-applications-in-a-year/)
-- [How Instacart Used Data Streaming to Meet COVID-19 Challenges](https://www.confluent.io/customers/instacart/)
-- [Distributed Machine Learning at Instacart](https://tech.instacart.com/distributed-machine-learning-at-instacart-4b11d7569423)
-- [Instacart’s Item Availability Architecture: Solving for scale and consistency](https://tech.instacart.com/instacarts-item-availability-architecture-solving-for-scale-and-consistency-f5661acb20a6)
-- [Supercharging ML/AI Foundations at Instacart](https://tech.instacart.com/supercharging-ml-ai-foundations-at-instacart-d48214a2b511)
-- [Real-time Fraud Detection with Yoda and ClickHouse](https://tech.instacart.com/real-time-fraud-detection-with-yoda-and-clickhouse-bd08e9dbe3f4)
+    *Industry*: Video Sharing and Streaming, AdTech
 
-14. **DoorDash** (Food Delivery, Technology, and Logistics)
+    - [Case study Dailymotion - Martech Compass](https://martechcompass.com/case-study-dailymotion/)
+      This case study discusses how Dailymotion implemented AI-based personalization to improve its video recommendation system, resulting in a 300% increase in unique video views.
 
-- [Building Scalable Real-Time Event Processing with Kafka and Flink](https://doordash.engineering/2022/08/02/building-scalable-real-time-event-processing-with-kafka-and-flink/)
-- [How DoorDash Built an Ensemble Learning Model for Time Series Forecasting](https://careersatdoordash.com/blog/how-doordash-built-an-ensemble-learning-model-for-time-series-forecasting/)
-- [Building a Gigascale ML Feature Store with Redis](https://careersatdoordash.com/blog/building-a-gigascale-ml-feature-store-with-redis/)
-- [Using ML and Optimization to Solve DoorDash's Dispatch Problem](https://careersatdoordash.com/blog/using-ml-and-optimization-to-solve-doordashs-dispatch-problem/)
-- [Maintaining Machine Learning Model Accuracy Through Monitoring](https://careersatdoordash.com/blog/monitor-machine-learning-model-drift/)
-- [Building Riviera: A Declarative Real-Time Feature Engineering Framework](https://careersatdoordash.com/blog/building-a-declarative-real-time-feature-engineering-framework/)
-- [Engineering Systems for Real-Time Predictions @DoorDash](https://www.infoq.com/presentations/doordash-real-time-predictions/)
-- [How DoorDash Upgraded a Heuristic with ML to Save Thousands of Canceled Orders](https://careersatdoordash.com/blog/how-doordash-upgraded-a-heuristic-with-ml-to-save-thousands-of-canceled-orders/)
-- [Personalizing the DoorDash Retail Store Page Experience](https://careersatdoordash.com/blog/personalizing-the-doordash-retail-store-page-experience/)
-- [Homepage Recommendation with Exploitation and Exploration](https://careersatdoordash.com/blog/homepage-recommendation-with-exploitation-and-exploration/)
-- [Managing Supply and Demand Balance Through Machine Learning](https://careersatdoordash.com/blog/managing-supply-and-demand-balance-through-machine-learning/)
-- [3 Changes to Expand DoorDash’s Product Search Beyond Delivery](https://careersatdoordash.com/blog/3-changes-to-expand-doordashs-product-search/)
-- [Improving ETAs with multi-task models, deep learning, and probabilistic forecasts](https://careersatdoordash.com/blog/improving-etas-with-multi-task-models-deep-learning-and-probabilistic-forecasts/)
-- [Beyond the Click: Elevating DoorDash’s personalized notification experience with GNN recommendation](https://careersatdoordash.com/blog/doordash-customize-notifications-how-gnn-work/)
+    - [AI Video Intelligence: Innovation for Publishers & Broadcasters](https://pro.dailymotion.com/en/blog/ai-video-intelligence/)
+      This blog post introduces Dailymotion's AI video intelligence technology, which analyzes video content to extract insights like themes, sentiment, and contextual markers for improved content tagging and contextual advertising.
 
-15. **Booking.com** (Travel and Technology)
+    - [Dailymotion's Journey to Crafting the Ultimate Content-Driven Video Recommendation Engine with Qdrant Vector Database](https://qdrant.tech/blog/case-study-dailymotion/)
+      This article details Dailymotion's implementation of a content-based recommendation system using Qdrant vector database, processing 420 million+ videos and serving 13 million+ recommendations daily.
 
-- [Booking.com Launches New AI Trip Planner to Enhance Travel Planning Experience](https://news.booking.com/bookingcom-launches-new-ai-trip-planner-to-enhance-travel-planning-experience/)
-- [Booking.com Enhances Travel Planning with New AI-Powered Features for Easier, Smarter Decisions](https://news.booking.com/bookingcom-enhances-travel-planning-with-new-ai-powered-features--for-easier-smarter-decisions/)
-- [Machine Learning in production: the Booking.com approach](https://booking.ai/https-booking-ai-machine-learning-production-3ee8fe943c70)
-- [Booking.com: Building a Scalable Machine Learning Platform](https://h2o.ai/case-studies/booking-com/)
-- [Booking.com accelerates data analysis with Confluent Cloud](https://www.confluent.io/customers/booking-com/)
-- [Leverage graph technology for real-time Fraud Detection and Prevention](https://medium.com/booking-com-development/leverage-graph-technology-for-real-time-fraud-detection-and-prevention-438336076ea5)
+    - [See Real time activity - Dailymotion Help Center](https://faq.dailymotion.com/hc/en-us/articles/360016890140-See-Real-time-activity)
+      This help article explains Dailymotion's Real-time dashboard feature, which allows content creators to analyze views generated on their content or player embeds within the last 60 minutes and 24 hours.
 
-16. **Grab** (Technology, Ride-Hailing, Food Delivery, and Digital Payments)
+    - [How Dailymotion reinvented itself to create a better user experience](https://www.builtinnyc.com/articles/spotlight-working-at-dailymotion-tech-innovation)
+      This article discusses Dailymotion's transformation in 2017, including the development of algorithms to deliver personalized content and the integration of video player technology with a robust adtech platform.
 
-- [Real-time data ingestion in Grab](https://engineering.grab.com/real-time-data-ingestion)
-- [How we got more accurate estimated time-of-arrivals in the app while pushing down tech costs](https://www.grab.com/sg/inside-grab/how-we-got-more-accurate-estimated-time-of-arrivals-in-the-app-while-pushing-down-tech-costs/)
-- [GrabRideGuide, our new AI tool that predicts ride demand hotspots](https://www.grab.com/sg/inside-grab/stories/grabrideguide-our-new-ai-tool-that-predicts-high-demand-areas/)
-- [Evolution of Catwalk: Model serving platform at Grab](https://engineering.grab.com/catwalk-evolution)
-- [Grab App at Scale with ScyllaDB](https://www.scylladb.com/2021/06/23/grab-app-at-scale-with-scylla/)
-- [Harnessing AI for public good: Grab's approach to AI Governance](https://www.grab.com/sg/inside-grab/stories/harnessing-ai-for-public-good-grabs-approach-to-ai-governance/)
-- [Unsupervised graph anomaly detection - Catching new fraudulent behaviours](https://engineering.grab.com/graph-anomaly-model)
+15. **Coupang**
 
-17. **Didact AI** (Finance, Machine Learning, Stock Trading)
+    *Industry*: E-commerce, Technology, and Logistics
 
-- [Didact AI: The anatomy of an ML-powered stock picking engine](https://principiamundi.com/posts/didact-anatomy/) 
+    - [A symphony of people and technology: An inside look at a Coupang fulfillment center](https://www.aboutcoupang.com/English/news/news-details/2022/A-symphony-of-people-and-technology-An-inside-look-inside-a-Coupang-fulfillment-center/default.aspx)
+      This article details how Coupang uses AI, machine learning, and real-time data in their fulfillment centers to optimize operations and improve employee experiences.
 
-18. **Glassdoor** (Technology, Job Search and Company Reviews)
+    - [How Coupang Conquered South Korean E-commerce](https://quartr.com/insights/company-research/how-coupang-conquered-south-korean-ecommerce)
+      This article explains how Coupang uses AI to coordinate tasks for workers and drivers using real-time data, allocating labor and providing optimal routes.
 
- - [Glassdoor uses machine learning to tell users if they're being paid fairly](https://www.zdnet.com/article/glassdoor-uses-machine-learning-to-tell-users-if-theyre-being-paid-fairly/)
+    - [Matching duplicate items to improve catalog quality](https://medium.com/coupang-engineering/matching-duplicate-items-to-improve-catalog-quality-ca4abc827f94)
+      Coupang utilizes real-time deep embedding vectors and FAISS for efficient similarity search to detect duplicate items across millions of products.
 
-19. **Booking.com** (Travel and Technology)
+    - [Overcoming food delivery challenges with data science](https://medium.com/coupang-engineering/overcoming-food-delivery-challenges-with-data-science-6420cac1d59)
+      Coupang Eats employs real-time machine learning for order assignment, dynamic pricing, and ETA predictions in food delivery.
 
-- [Booking.com Launches New AI Trip Planner to Enhance Travel Planning Experience](https://news.booking.com/bookingcom-launches-new-ai-trip-planner-to-enhance-travel-planning-experience/)
-- [Booking.com Enhances Travel Planning with New AI-Powered Features for Easier, Smarter Decisions](https://news.booking.com/bookingcom-enhances-travel-planning-with-new-ai-powered-features--for-easier-smarter-decisions/)
-- [Machine Learning in production: the Booking.com approach](https://booking.ai/https-booking-ai-machine-learning-production-3ee8fe943c70)
-- [Booking.com: Building a Scalable Machine Learning Platform](https://h2o.ai/case-studies/booking-com/)
-- [Booking.com accelerates data analysis with Confluent Cloud](https://www.confluent.io/customers/booking-com/)
-- [Leverage graph technology for real-time Fraud Detection and Prevention](https://medium.com/booking-com-development/leverage-graph-technology-for-real-time-fraud-detection-and-prevention-438336076ea5)
+16. **Slack**
 
-20. **Grab** (Technology, Ride-Hailing, Food Delivery, and Digital Payments)
+    *Industry*: Technology, Communication, and Collaboration Software
 
-- [Real-time data ingestion in Grab](https://engineering.grab.com/real-time-data-ingestion)
-- [How we got more accurate estimated time-of-arrivals in the app while pushing down tech costs](https://www.grab.com/sg/inside-grab/how-we-got-more-accurate-estimated-time-of-arrivals-in-the-app-while-pushing-down-tech-costs/)
-- [GrabRideGuide, our new AI tool that predicts ride demand hotspots](https://www.grab.com/sg/inside-grab/stories/grabrideguide-our-new-ai-tool-that-predicts-high-demand-areas/)
-- [Evolution of Catwalk: Model serving platform at Grab](https://engineering.grab.com/catwalk-evolution)
-- [Grab App at Scale with ScyllaDB](https://www.scylladb.com/2021/06/23/grab-app-at-scale-with-scylla/)
-- [Harnessing AI for public good: Grab's approach to AI Governance](https://www.grab.com/sg/inside-grab/stories/harnessing-ai-for-public-good-grabs-approach-to-ai-governance/)
-- [Unsupervised graph anomaly detection - Catching new fraudulent behaviours](https://engineering.grab.com/graph-anomaly-model)
+    - [How Slack sends Millions of Messages in Real Time](https://blog.quastor.org/p/slack-sends-millions-messages-real-time)
+      This blog post details Slack's architecture for sending millions of real-time messages daily across the globe, including their use of Channel Servers, Gateway Servers, and Presence Servers.
 
-21. **Didact AI** (Finance, Machine Learning, Stock Trading)
+    - [Slack delivers native and secure generative AI powered by Amazon SageMaker JumpStart](https://aws.amazon.com/blogs/machine-learning/slack-delivers-native-and-secure-generative-ai-powered-by-amazon-sagemaker-jumpstart/)
+      This article discusses how Slack implemented generative AI capabilities using Amazon SageMaker JumpStart, ensuring data security and privacy for their customers.
 
-- [Didact AI: The anatomy of an ML-powered stock picking engine](https://principiamundi.com/posts/didact-anatomy/) 
+    - [Real-Time Messaging Architecture at Slack](https://www.infoq.com/news/2023/04/real-time-messaging-slack/)
+      This article provides insights into Slack's Pub/Sub architecture designed to manage real-time messages at scale, highlighting the challenges of delivering messages across different time zones and regions.
 
-22. **Glassdoor** (Technology, Job Search and Company Reviews)
+    - [How We Built Slack AI To Be Secure and Private](https://slack.engineering/how-we-built-slack-ai-to-be-secure-and-private/)
+      This blog post explains Slack's approach to building AI features while maintaining rigorous standards for customer data stewardship, including their principles for secure and private AI implementation.
 
-- [Glassdoor uses machine learning to tell users if they're being paid fairly](https://www.zdnet.com/article/glassdoor-uses-machine-learning-to-tell-users-if-theyre-being-paid-fairly/)
+    - [Real Time Messaging API | Node Slack SDK](https://tools.slack.dev/node-slack-sdk/rtm-api/)
+      This documentation describes Slack's Real Time Messaging API, which allows developers to receive events and send simple messages to Slack in real-time using WebSocket connections.
 
-23. **Dailymotion** (Video Sharing and Streaming, AdTech)
+    - [Privacy principles: search, learning and artificial intelligence](https://slack.com/intl/en-in/trust/data-management/privacy-principles)
+      This resource outlines Slack's privacy principles for their AI and machine learning implementations, emphasizing their commitment to data privacy and security.
 
-- [Case study Dailymotion - Martech Compass](https://martechcompass.com/case-study-dailymotion/)
-- [AI Video Intelligence: Innovation for Publishers & Broadcasters](https://pro.dailymotion.com/en/blog/ai-video-intelligence/)
-- [Dailymotion's Journey to Crafting the Ultimate Content-Driven Video Recommendation Engine with Qdrant Vector Database](https://qdrant.tech/blog/case-study-dailymotion/)
-- [See Real time activity - Dailymotion Help Center](https://faq.dailymotion.com/hc/en-us/articles/360016890140-See-Real-time-activity)
-- [How Dailymotion reinvented itself to create a better user experience](https://www.builtinnyc.com/articles/spotlight-working-at-dailymotion-tech-innovation)
-
-24. **Coupang** (E-commerce, Technology, and Logistics)
-
-- [A symphony of people and technology: An inside look at a Coupang fulfillment center](https://www.aboutcoupang.com/English/news/news-details/2022/A-symphony-of-people-and-technology-An-inside-look-inside-a-Coupang-fulfillment-center/default.aspx)
-- [How Coupang Conquered South Korean E-commerce](https://quartr.com/insights/company-research/how-coupang-conquered-south-korean-ecommerce)
-- [Matching duplicate items to improve catalog quality](https://medium.com/coupang-engineering/matching-duplicate-items-to-improve-catalog-quality-ca4abc827f94)
-- [Overcoming food delivery challenges with data science](https://medium.com/coupang-engineering/overcoming-food-delivery-challenges-with-data-science-6420cac1d59)
-
-25. **Slack** (Technology, Communication, and Collaboration Software)
-
-- [How Slack sends Millions of Messages in Real Time](https://blog.quastor.org/p/slack-sends-millions-messages-real-time)
-- [Slack delivers native and secure generative AI powered by Amazon SageMaker JumpStart](https://aws.amazon.com/blogs/machine-learning/slack-delivers-native-and-secure-generative-ai-powered-by-amazon-sagemaker-jumpstart/)
-- [Real-Time Messaging Architecture at Slack](https://www.infoq.com/news/2023/04/real-time-messaging-slack/)
-- [How We Built Slack AI To Be Secure and Private](https://slack.engineering/how-we-built-slack-ai-to-be-secure-and-private/)
-- [Real Time Messaging API | Node Slack SDK](https://tools.slack.dev/node-slack-sdk/rtm-api/)
-- [Privacy principles: search, learning and artificial intelligence](https://slack.com/intl/en-in/trust/data-management/privacy-principles)
-- [Email Classification](https://slack.engineering/email-classification/)
+    - [Email Classification](https://slack.engineering/email-classification/)
+      Slack uses real-time machine learning to classify incoming email addresses for optimal collaboration suggestions.
 
 26. **Swiggy** (Food Delivery, Technology, and E-commerce)
 
