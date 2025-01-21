@@ -156,8 +156,6 @@ We at TurboML are democratising real time ML / AI. Here's a curated list of awes
    - [Stopping Uber Fraudsters Through Risk Challenges](https://www.uber.com/en-GB/blog/stopping-uber-fraudsters-through-risk-challenges/)
      Uber's real-time ML system implements risk challenges like penny drop verification to detect and mitigate payment fraud dynamically.
 
-## Real-Time ML Internal Platform Resources
-
 4. **TikTok**
 
    *Industry*: Social Media, Entertainment, and Technology
@@ -252,43 +250,74 @@ We at TurboML are democratising real time ML / AI. Here's a curated list of awes
    - [The Rise (and Lessons Learned) of ML Models to Personalize Content on Home (Part II)](https://engineering.atspotify.com/2021/11/the-rise-and-lessons-learned-of-ml-models-to-personalize-content-on-home-part-ii/)
       Spotify's journey in implementing real-time ML models for personalized content recommendations on their Home page, including challenges in evaluation and automated deployment.
 
-8. **Instacart** (E-commerce, Grocery Delivery, Technology)
+8. **Instacart**
 
-- [Lessons Learned: The Journey to Real-Time Machine Learning at Instacart](https://www.instacart.com/company/how-its-made/lessons-learned-the-journey-to-real-time-machine-learning-at-instacart/)
-- [How Instacart Modernized the Prediction of Real Time Availability for Hundreds of Millions of Items](https://tech.instacart.com/how-instacart-modernized-the-prediction-of-real-time-availability-for-hundreds-of-millions-of-items-59b2a82c89fe)
-- [Predicting the real-time availability of 200 million grocery items](https://tech.instacart.com/predicting-real-time-availability-of-200-million-grocery-items-in-us-canada-stores-61f43a16eafe)
-- [Griffin: How Instacart's ML Platform Tripled ML Applications in a year](https://www.instacart.com/company/how-its-made/griffin-how-instacarts-ml-platform-tripled-ml-applications-in-a-year/)
-- [How Instacart Used Data Streaming to Meet COVID-19 Challenges](https://www.confluent.io/customers/instacart/)
-- [Distributed Machine Learning at Instacart](https://tech.instacart.com/distributed-machine-learning-at-instacart-4b11d7569423)
-- [Instacart's Item Availability Architecture: Solving for scale and consistency](https://tech.instacart.com/instacarts-item-availability-architecture-solving-for-scale-and-consistency-f5661acb20a6)
-- [Supercharging ML/AI Foundations at Instacart](https://tech.instacart.com/supercharging-ml-ai-foundations-at-instacart-d48214a2b511)
-- [Real-time Fraud Detection with Yoda and ClickHouse](https://tech.instacart.com/real-time-fraud-detection-with-yoda-and-clickhouse-bd08e9dbe3f4)
+   *Industry*: E-commerce, Grocery Delivery, Technology
 
-9. **DoorDash** (Food Delivery, Technology, and Logistics)
+   - [Lessons Learned: The Journey to Real-Time Machine Learning at Instacart](https://www.instacart.com/company/how-its-made/lessons-learned-the-journey-to-real-time-machine-learning-at-instacart/)
+     This article discusses Instacart's transition from batch-oriented ML systems to real-time, including challenges faced and solutions implemented for real-time serving and features.
 
-- [Building Scalable Real-Time Event Processing with Kafka and Flink](https://doordash.engineering/2022/08/02/building-scalable-real-time-event-processing-with-kafka-and-flink/)
-- [How DoorDash Built an Ensemble Learning Model for Time Series Forecasting](https://careersatdoordash.com/blog/how-doordash-built-an-ensemble-learning-model-for-time-series-forecasting/)
-- [Building a Gigascale ML Feature Store with Redis](https://careersatdoordash.com/blog/building-a-gigascale-ml-feature-store-with-redis/)
-- [Using ML and Optimization to Solve DoorDash's Dispatch Problem](https://careersatdoordash.com/blog/using-ml-and-optimization-to-solve-doordashs-dispatch-problem/)
-- [Maintaining Machine Learning Model Accuracy Through Monitoring](https://careersatdoordash.com/blog/monitor-machine-learning-model-drift/)
-- [Building Riviera: A Declarative Real-Time Feature Engineering Framework](https://careersatdoordash.com/blog/building-a-declarative-real-time-feature-engineering-framework/)
-- [Engineering Systems for Real-Time Predictions @DoorDash](https://www.infoq.com/presentations/doordash-real-time-predictions/)
-- [How DoorDash Upgraded a Heuristic with ML to Save Thousands of Canceled Orders](https://careersatdoordash.com/blog/how-doordash-upgraded-a-heuristic-with-ml-to-save-thousands-of-canceled-orders/)
-- [Personalizing the DoorDash Retail Store Page Experience](https://careersatdoordash.com/blog/personalizing-the-doordash-retail-store-page-experience/)
-- [Homepage Recommendation with Exploitation and Exploration](https://careersatdoordash.com/blog/homepage-recommendation-with-exploitation-and-exploration/)
-- [Managing Supply and Demand Balance Through Machine Learning](https://careersatdoordash.com/blog/managing-supply-and-demand-balance-through-machine-learning/)
-- [3 Changes to Expand DoorDash's Product Search Beyond Delivery](https://careersatdoordash.com/blog/3-changes-to-expand-doordashs-product-search/)
-- [Improving ETAs with multi-task models, deep learning, and probabilistic forecasts](https://careersatdoordash.com/blog/improving-etas-with-multi-task-models-deep-learning-and-probabilistic-forecasts/)
-- [Beyond the Click: Elevating DoorDash's personalized notification experience with GNN recommendation](https://careersatdoordash.com/blog/doordash-customize-notifications-how-gnn-work/)
+   - [How Instacart Modernized the Prediction of Real Time Availability for Hundreds of Millions of Items](https://tech.instacart.com/how-instacart-modernized-the-prediction-of-real-time-availability-for-hundreds-of-millions-of-items-59b2a82c89fe)
+     This blog post details Instacart's new real-time item availability model, which combines general, trending, and real-time scores to improve prediction accuracy and reduce computation costs.
 
-10. **Booking.com** (Travel and Technology)
+   - [Predicting the real-time availability of 200 million grocery items](https://tech.instacart.com/predicting-real-time-availability-of-200-million-grocery-items-in-us-canada-stores-61f43a16eafe)
+     This article explains how Instacart uses machine learning to predict real-time availability of hundreds of millions of grocery items across the US and Canada, including their optimized scoring pipeline.
 
-- [Booking.com Launches New AI Trip Planner to Enhance Travel Planning Experience](https://news.booking.com/bookingcom-launches-new-ai-trip-planner-to-enhance-travel-planning-experience/)
-- [Booking.com Enhances Travel Planning with New AI-Powered Features for Easier, Smarter Decisions](https://news.booking.com/bookingcom-enhances-travel-planning-with-new-ai-powered-features--for-easier-smarter-decisions/)
-- [Machine Learning in production: the Booking.com approach](https://booking.ai/https-booking-ai-machine-learning-production-3ee8fe943c70)
-- [Booking.com: Building a Scalable Machine Learning Platform](https://h2o.ai/case-studies/booking-com/)
-- [Booking.com accelerates data analysis with Confluent Cloud](https://www.confluent.io/customers/booking-com/)
-- [Leverage graph technology for real-time Fraud Detection and Prevention](https://medium.com/booking-com-development/leverage-graph-technology-for-real-time-fraud-detection-and-prevention-438336076ea5)
+   - [Griffin: How Instacart's ML Platform Tripled ML Applications in a year](https://www.instacart.com/company/how-its-made/griffin-how-instacarts-ml-platform-tripled-ml-applications-in-a-year/)
+     This post introduces Instacart's MLOps platform, Griffin, which includes components for real-time recommendations and other ML applications.
+
+   - [How Instacart Used Data Streaming to Meet COVID-19 Challenges](https://www.confluent.io/customers/instacart/)
+     This case study describes how Instacart leveraged Confluent Cloud for data streaming to create real-time availability models and fraud detection systems.
+
+   - [Distributed Machine Learning at Instacart](https://tech.instacart.com/distributed-machine-learning-at-instacart-4b11d7569423)
+     This article discusses Instacart's distributed ML architecture, including parallel fulfillment ML jobs for real-time applications like batching, routing, and ETA prediction.
+
+   - [Instacart's Item Availability Architecture: Solving for scale and consistency](https://tech.instacart.com/instacarts-item-availability-architecture-solving-for-scale-and-consistency-f5661acb20a6)
+
+   - [Supercharging ML/AI Foundations at Instacart](https://tech.instacart.com/supercharging-ml-ai-foundations-at-instacart-d48214a2b511)
+     This blog post discusses Instacart's efforts to improve their ML infrastructure, including faster feature onboarding and retrieval, which are crucial for real-time ML applications.
+
+   - [Real-time Fraud Detection with Yoda and ClickHouse](https://tech.instacart.com/real-time-fraud-detection-with-yoda-and-clickhouse-bd08e9dbe3f4)
+
+9. **DoorDash**
+
+   *Industry*: Food Delivery, Technology, and Logistics
+
+   - [Building Scalable Real-Time Event Processing with Kafka and Flink](https://doordash.engineering/2022/08/02/building-scalable-real-time-event-processing-with-kafka-and-flink/)
+     This article discusses DoorDash's migration to a cloud-native streaming platform powered by Apache Kafka and Apache Flink for continuous stream processing and data ingestion into Snowflake.
+
+   - [How DoorDash Built an Ensemble Learning Model for Time Series Forecasting](https://careersatdoordash.com/blog/how-doordash-built-an-ensemble-learning-model-for-time-series-forecasting/)
+     This blog post details DoorDash's implementation of ELITE, an ensemble learning model for efficient and accurate time series forecasting, used for weekly order volume predictions and delivery time forecasts.
+
+   - [Building a Gigascale ML Feature Store with Redis](https://careersatdoordash.com/blog/building-a-gigascale-ml-feature-store-with-redis/)
+     This article describes how DoorDash optimized their Redis-based feature store to handle tens of millions of reads per second, enabling real-time machine learning predictions at scale.
+
+   - [Using ML and Optimization to Solve DoorDash's Dispatch Problem](https://careersatdoordash.com/blog/using-ml-and-optimization-to-solve-doordashs-dispatch-problem/)
+     This blog post explains how DoorDash uses machine learning and optimization techniques to solve the complex dispatch problem of efficiently matching orders with drivers.
+
+   - [Maintaining Machine Learning Model Accuracy Through Monitoring](https://careersatdoordash.com/blog/monitor-machine-learning-model-drift/)
+     This article discusses DoorDash's approach to monitoring machine learning models in production, ensuring their continued accuracy and performance.
+
+   - [Building Riviera: A Declarative Real-Time Feature Engineering Framework](https://careersatdoordash.com/blog/building-a-declarative-real-time-feature-engineering-framework/)
+     This post describes DoorDash's development of Riviera, a framework for real-time feature engineering that allows data scientists to specify feature computation logic and production requirements through high-level constructs.
+
+   - [Engineering Systems for Real-Time Predictions @DoorDash](https://www.infoq.com/presentations/doordash-real-time-predictions/)
+     This presentation by Raghav Ramesh discusses DoorDash's approach to structuring machine learning systems in production for robust and wide-scale deployment of real-time predictions.
+
+   - [How DoorDash Upgraded a Heuristic with ML to Save Thousands of Canceled Orders](https://careersatdoordash.com/blog/how-doordash-upgraded-a-heuristic-with-ml-to-save-thousands-of-canceled-orders/)
+
+   - [Personalizing the DoorDash Retail Store Page Experience](https://careersatdoordash.com/blog/personalizing-the-doordash-retail-store-page-experience/)
+
+   - [Homepage Recommendation with Exploitation and Exploration](https://careersatdoordash.com/blog/homepage-recommendation-with-exploitation-and-exploration/)
+
+   - [Managing Supply and Demand Balance Through Machine Learning](https://careersatdoordash.com/blog/managing-supply-and-demand-balance-through-machine-learning/)
+
+   - [3 Changes to Expand DoorDash's Product Search Beyond Delivery](https://careersatdoordash.com/blog/3-changes-to-expand-doordashs-product-search/)
+
+   - [Improving ETAs with multi-task models, deep learning, and probabilistic forecasts](https://careersatdoordash.com/blog/improving-etas-with-multi-task-models-deep-learning-and-probabilistic-forecasts/)
+
+   - [Beyond the Click: Elevating DoorDash's personalized notification experience with GNN recommendation](https://careersatdoordash.com/blog/doordash-customize-notifications-how-gnn-work/)
+
 
 11. **Grab** (Technology, Ride-Hailing, Food Delivery, and Digital Payments)
 
