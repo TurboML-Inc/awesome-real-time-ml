@@ -82,34 +82,80 @@ We at TurboML are democratising real time ML / AI. Here's a curated list of awes
 
 ## Real-Time ML Internal Platform Resources
 
-1. **Picnic** (e-commerce and grocery retail)
+1. Picnic
+   **Industry**: e-commerce and grocery retail
 
-- [Picnic's Lakeless Data Warehouse](https://blog.picnic.nl/picnics-lakeless-data-warehouse-8ec02801d50b)
-- [Running demand forecasting machine learning models at scale](https://jobs.picnic.app/en/blogs/running-demand-forecasting-machine-learning-models-at-scale)
-- [The trade-off between efficiency and being on-time: Optimizing drop times using machine learning](https://blog.picnic.nl/the-trade-off-between-efficiency-and-being-on-time-optimizing-drop-times-using-machine-learning-d3f6fb1b0f31)
+   **Description**: Picnic is an online grocery platform that utilizes advanced technologies for efficient operations and customer service.
 
-2. **Netflix** (Media and Entertainment, Streaming Services)
+   - [Picnic's Lakeless Data Warehouse](https://blog.picnic.nl/picnics-lakeless-data-warehouse-8ec02801d50b)
+     This article discusses Picnic's data architecture, including near-real-time data processing for analytics.
 
-- [Supporting Diverse ML Systems at Netflix](https://netflixtechblog.com/supporting-diverse-ml-systems-at-netflix-2d2e6b6d205d)
-- [Optimizing the Netflix Streaming Experience with Data Science](http://techblog.netflix.com/2014/06/optimizing-netflix-streaming-experience.html)
-- [Netflix Recommendations: Beyond the 5 stars (Part 1)](http://techblog.netflix.com/2012/04/netflix-recommendations-beyond-5-stars.html)
-- [Machine Learning Platform - Netflix Research](https://research.netflix.com/research-area/machine-learning-platform)
-- [Evolution of ML Fact Store](https://netflixtechblog.com/evolution-of-ml-fact-store-5941d3231762)
-- [Scaling Media Machine Learning at Netflix](https://netflixtechblog.com/scaling-media-machine-learning-at-netflix-f19b400243)
-- [InTune: Reinforcement Learning-based Data Pipeline Optimization for Deep Learning Recommendation Models](https://research.netflix.com/publication/intune-reinforcement-learning-based-data-pipeline-optimization-for-deep)
+   - [Running demand forecasting machine learning models at scale](https://jobs.picnic.app/en/blogs/running-demand-forecasting-machine-learning-models-at-scale)
+     This blog post discusses Picnic's implementation of deep learning models for demand forecasting, including real-time prediction challenges.
 
-3. **Uber** (Transportation and Technology)
+   - [The trade-off between efficiency and being on-time: Optimizing drop times using machine learning](https://blog.picnic.nl/the-trade-off-between-efficiency-and-being-on-time-optimizing-drop-times-using-machine-learning-d3f6fb1b0f31)
+     This blog post describes Picnic's use of machine learning for real-time optimization of delivery times.
 
-- [Real-time Data Infrastructure at Uber](https://arxiv.org/pdf/2104.0087.pdf)
-- [Michelangelo: Uber's Machine Learning Platform](https://www.uber.com/blog/michelangelo-machine-learning-platform/)
-- [Building Scalable Streaming Pipelines for Near Real-Time Features](https://www.uber.com/en-IN/blog/building-scalable-streaming-pipelines/)
-- [DeepETA: How Uber Predicts Arrival Times Using Deep Learning](https://www.uber.com/blog/deepeta-how-uber-predicts-arrival-times/)
-- [Palette Feature Store: Uber's Centralized Feature Management Platform](https://www.uber.com/en-IN/blog/palette-meta-store-journey/)
-- [Project RADAR: Intelligent Early Fraud Detection](https://www.uber.com/en-GB/blog/project-radar-intelligent-early-fraud-detection/)
-- [How Uber Optimizes the Timing of Push Notifications using ML and Linear Programming](https://www.uber.com/en-IN/blog/how-uber-optimizes-push-notifications-using-ml/)
-- [Uber's Real-Time Document Check](https://www.uber.com/en-GB/blog/ubers-real-time-document-check/)
-- [Personalized Marketing at Scale: Uber's Out-of-App Recommendation System](https://www.uber.com/en-GB/blog/personalized-marketing-at-scale/)
-- [Stopping Uber Fraudsters Through Risk Challenges](https://www.uber.com/en-GB/blog/stopping-uber-fraudsters-through-risk-challenges/)
+2. Netflix
+   **Industry**: Media and Entertainment, Streaming Services
+
+   **Description**: Netflix is a leading streaming service that leverages advanced technologies to provide personalized entertainment experiences to its global audience.
+
+   - [Supporting Diverse ML Systems at Netflix](https://netflixtechblog.com/supporting-diverse-ml-systems-at-netflix-2d2e6b6d205d)
+     This article discusses Netflix's Machine Learning Platform (MLP) and how it supports various ML systems, including real-time applications.
+
+   - [Optimizing the Netflix Streaming Experience with Data Science](http://techblog.netflix.com/2014/06/optimizing-netflix-streaming-experience.html)
+     This blog post explores how Netflix uses real-time and near real-time algorithms along with machine learning models to optimize streaming experiences.
+
+   - [Netflix Recommendations: Beyond the 5 stars (Part 1)](http://techblog.netflix.com/2012/04/netflix-recommendations-beyond-5-stars.html)
+     This article discusses Netflix's recommendation system, including real-time ranking and machine learning experimentation with online A/B testing.
+
+   - [Machine Learning Platform - Netflix Research](https://research.netflix.com/research-area/machine-learning-platform)
+     This research area page describes Netflix's machine learning infrastructure, which supports both real-time high-throughput, low-latency use cases and high-volume batch workflows.
+
+   - [Evolution of ML Fact Store](https://netflixtechblog.com/evolution-of-ml-fact-store-5941d3231762)
+     This article discusses Axion, Netflix's fact store for ML, which is used for real-time feature logging and offline feature generation to remove training-serving skew.
+
+   - [Scaling Media Machine Learning at Netflix](https://netflixtechblog.com/scaling-media-machine-learning-at-netflix-f19b400243)
+     This post outlines Netflix's media machine learning infrastructure, including real-time serving and searching of media feature values using systems like Marken.
+
+   - [InTune: Reinforcement Learning-based Data Pipeline Optimization for Deep Learning Recommendation Models](https://research.netflix.com/publication/intune-reinforcement-learning-based-data-pipeline-optimization-for-deep)
+     This research publication discusses Netflix's use of reinforcement learning for optimizing real-time data ingestion in deep learning recommendation models.
+
+3. Uber
+   **Industry**: Transportation and Technology
+
+   **Description**: Uber is a technology company that revolutionized transportation and delivery services through its innovative platform and data-driven approach.
+
+   - [Real-time Data Infrastructure at Uber](https://arxiv.org/pdf/2104.0087.pdf)
+     This paper describes Uber's real-time data infrastructure, which processes petabytes of data daily to support various use cases including customer incentives, fraud detection, and machine learning model predictions.
+
+   - [Michelangelo: Uber's Machine Learning Platform](https://www.uber.com/blog/michelangelo-machine-learning-platform/)
+     This article introduces Michelangelo, Uber's ML platform that enables internal teams to build, deploy, and operate machine learning solutions at scale, including real-time prediction capabilities.
+
+   - [Building Scalable Streaming Pipelines for Near Real-Time Features](https://www.uber.com/en-IN/blog/building-scalable-streaming-pipelines/)
+     This blog post discusses how Uber leverages Apache Flink to build real-time streaming pipelines for generating data and features for machine learning models.
+
+   - [DeepETA: How Uber Predicts Arrival Times Using Deep Learning](https://www.uber.com/blog/deepeta-how-uber-predicts-arrival-times/)
+     This article explains how Uber uses deep neural networks for global ETA prediction, including real-time traffic information and low-latency requirements.
+
+   - [Palette Feature Store: Uber's Centralized Feature Management Platform](https://www.uber.com/en-IN/blog/palette-meta-store-journey/)
+     This resource describes Uber's Palette Feature Store, a centralized database of features used across the company for various machine learning projects, supporting both batch and near real-time use cases.
+
+   - [Project RADAR: Intelligent Early Fraud Detection](https://www.uber.com/en-GB/blog/project-radar-intelligent-early-fraud-detection/)
+      RADAR: Uber's AI system for real-time fraud detection and mitigation using time series analysis and pattern mining.
+
+   - [How Uber Optimizes the Timing of Push Notifications using ML and Linear Programming](https://www.uber.com/en-IN/blog/how-uber-optimizes-push-notifications-using-ml/)
+      Uber's real-time ML system optimizes push notification timing using XGBoost and linear programming for personalized user engagement.
+
+   - [Uber's Real-Time Document Check](https://www.uber.com/en-GB/blog/ubers-real-time-document-check/)
+      Uber's real-time ML system for instant ID verification, using on-device image quality checks and server-side document processing.
+
+   - [Personalized Marketing at Scale: Uber's Out-of-App Recommendation System](https://www.uber.com/en-GB/blog/personalized-marketing-at-scale/)
+      Uber's real-time ML system for personalized out-of-app recommendations, using location prediction and multi-stage ranking for billions of messages.
+
+   - [Stopping Uber Fraudsters Through Risk Challenges](https://www.uber.com/en-GB/blog/stopping-uber-fraudsters-through-risk-challenges/)
+      Uber's real-time ML system implements risk challenges like penny drop verification to detect and mitigate payment fraud dynamically.
 
 4. **TikTok** (Social Media, Entertainment, and Technology)
 
