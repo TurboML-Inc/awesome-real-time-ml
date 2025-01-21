@@ -156,43 +156,101 @@ We at TurboML are democratising real time ML / AI. Here's a curated list of awes
    - [Stopping Uber Fraudsters Through Risk Challenges](https://www.uber.com/en-GB/blog/stopping-uber-fraudsters-through-risk-challenges/)
      Uber's real-time ML system implements risk challenges like penny drop verification to detect and mitigate payment fraud dynamically.
 
-4. **TikTok** (Social Media, Entertainment, and Technology)
+## Real-Time ML Internal Platform Resources
 
-- [Monolith: Real-Time Recommendation System With Collisionless Embedding Table](https://arxiv.org/abs/2209.07663)
-- [Build TikTok's Personalized Real-Time Recommendation System in Python](https://2024.pycon.de/program/DPGRGW/)
-- [Real-time Data Processing at TikTok](https://www.techaheadcorp.com/blog/decoding-tiktok-system-design-architecture/)
-- [The AI Algorithm that got TikTok Users Hooked](https://www.argoid.ai/blog/the-ai-algorithm-that-got-tiktok-users-hooked)
+4. **TikTok**
 
-5. **Meta** (Technology, Social Media, and Artificial Intelligence)
+   *Industry*: Social Media, Entertainment, and Technology
 
-- [Spiral: Self-tuning services via real-time machine learning](https://engineering.fb.com/2018/06/28/data-infrastructure/spiral-self-tuning-services-via-real-time-machine-learning/)
-- [Scaling data ingestion for machine learning training at Meta](https://engineering.fb.com/2022/09/19/ml-applications/data-ingestion-machine-learning-training-meta/)
-- [Meta's approach to machine learning prediction robustness](https://engineering.fb.com/2024/07/10/data-infrastructure/machine-learning-ml-prediction-robustness-meta/)
-- [Machine Learning Platform - Meta Research](https://ai.meta.com/research/areas/machine-learning-platform/)
-- [Inside Meta's AI optimization platform for engineers across the company](https://ai.meta.com/blog/looper-meta-ai-optimization-platform-for-engineers/)
-- [New AI advancements drive Meta's ads system performance and efficiency](https://ai.meta.com/blog/ai-ads-performance-efficiency-meta-lattice/)
-- [AI debugging at Meta with HawkEye](https://engineering.fb.com/2023/12/19/data-infrastructure/hawkeye-ai-debugging-meta/)
-- [How machine learning powers Facebook's News Feed ranking algorithm](https://engineering.fb.com/2021/01/26/ml-applications/news-feed-ranking/)
-- [Scaling the Instagram Explore recommendations system](https://engineering.fb.com/2023/08/09/ml-applications/scaling-instagram-explore-recommendations-system/)
+   - [Monolith: Real-Time Recommendation System With Collisionless Embedding Table](https://arxiv.org/abs/2209.07663)
+     This paper describes TikTok's real-time recommendation system, Monolith, which uses collisionless embedding tables and online learning to adapt quickly to changing user preferences.
 
-6. **Google** (Technology, Internet Services, and Artificial Intelligence)
+   - [Build TikTok's Personalized Real-Time Recommendation System in Python](https://2024.pycon.de/program/DPGRGW/)
+     This tutorial demonstrates how to build a simplified version of TikTok's recommendation system using Python, including a feature store, vector database, and model serving infrastructure.
 
-- [Real-time ML analysis with TensorFlow, BigQuery, and Redpanda](https://www.redpanda.com/blog/real-time-machine-learning-processing-tensorflow-bigquery)
-- [Real-time AI with Google Cloud Vertex AI](https://cloud.google.com/blog/products/ai-machine-learning/real-time-ai-with-google-cloud-vertex-ai)
-- [Streaming analytics solutions | Google Cloud](https://cloud.google.com/solutions/stream-analytics)
-- [Introduction to Vertex AI Feature Store](https://cloud.google.com/vertex-ai/docs/featurestore/overview)
-- [Real-time Data Infrastructure at Google](https://arxiv.org/pdf/2104.0087.pdf)
-- [How Google Search ranking works](https://searchengineland.com/how-google-search-ranking-works-445141)
+   - [Real-time Data Processing at TikTok](https://www.techaheadcorp.com/blog/decoding-tiktok-system-design-architecture/)
+     This article discusses TikTok's use of technologies like Apache Kafka for real-time data streaming, enabling immediate processing of user interactions and content.
 
-7. **Spotify** (Music Streaming, Technology, and Entertainment)
+   - [The AI Algorithm that got TikTok Users Hooked](https://www.argoid.ai/blog/the-ai-algorithm-that-got-tiktok-users-hooked)
+     This blog post explains key components of TikTok's AI algorithm and recommender system, including its self-training AI engine, content tags, and user profiles.
 
-- [Unleashing ML Innovation at Spotify with Ray](https://engineering.atspotify.com/2023/02/unleashing-ml-innovation-at-spotify-with-ray/)
-- [Product Lessons from ML Home: Spotify's One-Stop Shop for Machine Learning](https://engineering.atspotify.com/2022/01/product-lessons-from-ml-home-spotifys-one-stop-shop-for-machine-learning/)
-- [The Winding Road to Better Machine Learning Infrastructure Through Tensorflow Extended and Kubeflow](https://engineering.atspotify.com/2019/12/the-winding-road-to-better-machine-learning-infrastructure-through-tensorflow-extended-and-kubeflow/)
-- [Feature Stores at Spotify: Building & Scaling a Centralized Platform](https://www.tecton.ai/apply/session-video-archive/feature-stores-at-spotify-building-scaling-a-centralized-platform/)
-- [Real-time Data Infrastructure at Spotify](https://arxiv.org/pdf/2104.0087.pdf)
-- [The Rise (and Lessons Learned) of ML Models to Personalize Content on Home (Part I)](https://engineering.atspotify.com/2021/11/the-rise-and-lessons-learned-of-ml-models-to-personalize-content-on-home-part-i/)
-- [The Rise (and Lessons Learned) of ML Models to Personalize Content on Home (Part II)](https://engineering.atspotify.com/2021/11/the-rise-and-lessons-learned-of-ml-models-to-personalize-content-on-home-part-ii/)
+5. **Meta**
+
+   *Industry*: Technology, Social Media, and Artificial Intelligence
+
+   - [Spiral: Self-tuning services via real-time machine learning](https://engineering.fb.com/2018/06/28/data-infrastructure/spiral-self-tuning-services-via-real-time-machine-learning/)
+     This article introduces Spiral, Meta's system for self-tuning high-performance infrastructure services at scale, using techniques that leverage real-time machine learning.
+
+   - [Scaling data ingestion for machine learning training at Meta](https://engineering.fb.com/2022/09/19/ml-applications/data-ingestion-machine-learning-training-meta/)
+     This blog post discusses Meta's experience building data ingestion and last-mile data preprocessing pipelines responsible for feeding data into AI training models, including real-time and near real-time processing.
+
+   - [Meta's approach to machine learning prediction robustness](https://engineering.fb.com/2024/07/10/data-infrastructure/machine-learning-ml-prediction-robustness-meta/)
+     This article outlines Meta's systematic framework for building prediction robustness, including real-time monitoring and auto-mitigation toolsets for calibration robustness.
+
+   - [Machine Learning Platform - Meta Research](https://ai.meta.com/research/areas/machine-learning-platform/)
+     This research area page describes Meta's machine learning infrastructure, which supports both real-time high-throughput, low-latency use cases and high-volume batch workflows.
+
+   - [Inside Meta's AI optimization platform for engineers across the company](https://ai.meta.com/blog/looper-meta-ai-optimization-platform-for-engineers/)
+     This blog post introduces Looper, Meta's end-to-end AI platform for optimization, personalization, and feedback collection, supporting 700 AI models and generating 4 million AI outputs per second.
+
+   - [New AI advancements drive Meta's ads system performance and efficiency](https://ai.meta.com/blog/ai-ads-performance-efficiency-meta-lattice/)
+     This blog post discusses Meta Lattice, a new model architecture that improves ad performance through real-time intent capture and multi-distribution modeling with temporal awareness.
+
+   - [AI debugging at Meta with HawkEye](https://engineering.fb.com/2023/12/19/data-infrastructure/hawkeye-ai-debugging-meta/)
+     This article introduces HawkEye, Meta's toolkit for monitoring, observability, and debuggability of end-to-end machine learning workflows powering ML-based products.
+
+   - [How machine learning powers Facebook's News Feed ranking algorithm](https://engineering.fb.com/2021/01/26/ml-applications/news-feed-ranking/)
+      Facebook's News Feed uses real-time machine learning to personalize content ranking for billions of users, processing thousands of signals to predict engagement and optimize user experience.
+     
+   - [Scaling the Instagram Explore recommendations system](https://engineering.fb.com/2023/08/09/ml-applications/scaling-instagram-explore-recommendations-system/)
+      Instagram's Explore uses a multi-stage real-time ML system with Two Tower neural networks and caching to recommend relevant content from billions of options.
+
+6. **Google**
+
+   *Industry*: Technology, Internet Services, and Artificial Intelligence
+
+   - [Real-time ML analysis with TensorFlow, BigQuery, and Redpanda](https://www.redpanda.com/blog/real-time-machine-learning-processing-tensorflow-bigquery)
+     This tutorial demonstrates how to build a real-time machine learning analysis system for fraud detection using Google Cloud services.
+
+   - [Real-time AI with Google Cloud Vertex AI](https://cloud.google.com/blog/products/ai-machine-learning/real-time-ai-with-google-cloud-vertex-ai)
+     This blog post introduces Streaming Ingestion for Vertex AI Matching Engine and Feature Store, enabling real-time updates and low-latency retrieval of data for ML models.
+
+   - [Streaming analytics solutions | Google Cloud](https://cloud.google.com/solutions/stream-analytics)
+     This page describes Google Cloud's streaming analytics solutions for ingesting, processing, and analyzing event streams in real-time.
+
+   - [Introduction to Vertex AI Feature Store](https://cloud.google.com/vertex-ai/docs/featurestore/overview)
+     This documentation explains how Vertex AI Feature Store provides a centralized repository for organizing, storing, and serving ML features in real-time.
+
+   - [Real-time Data Infrastructure at Google](https://arxiv.org/pdf/2104.0087.pdf)
+     This paper describes Google's real-time data infrastructure, which processes petabytes of data daily to support various use cases including customer incentives, fraud detection, and machine learning model predictions.
+
+   - [How Google Search ranking works](https://searchengineland.com/how-google-search-ranking-works-445141)
+      Google's search ranking system uses real-time machine learning components like NavBoost and Twiddlers to dynamically adjust search results based on user behavior and current events.
+
+7. **Spotify**
+
+   *Industry*: Music Streaming, Technology, and Entertainment
+
+   - [Unleashing ML Innovation at Spotify with Ray](https://engineering.atspotify.com/2023/02/unleashing-ml-innovation-at-spotify-with-ray/)
+     This article discusses how Spotify uses Ray to empower ML practitioners, support diverse ML systems, and accelerate the user journey for ML research and prototyping.
+
+   - [Product Lessons from ML Home: Spotify's One-Stop Shop for Machine Learning](https://engineering.atspotify.com/2022/01/product-lessons-from-ml-home-spotifys-one-stop-shop-for-machine-learning/)
+     This post details ML Home, Spotify's internal user interface for their Machine Learning Platform, which provides capabilities for tracking experiments, visualizing results, and monitoring deployed models.
+
+   - [The Winding Road to Better Machine Learning Infrastructure Through Tensorflow Extended and Kubeflow](https://engineering.atspotify.com/2019/12/the-winding-road-to-better-machine-learning-infrastructure-through-tensorflow-extended-and-kubeflow/)
+     This blog post outlines Spotify's journey in establishing building blocks for their platformized Machine Learning experience, leveraging TensorFlow Extended (TFX) and Kubeflow.
+
+   - [Feature Stores at Spotify: Building & Scaling a Centralized Platform](https://www.tecton.ai/apply/session-video-archive/feature-stores-at-spotify-building-scaling-a-centralized-platform/)
+     This talk discusses Spotify's approach to building a centralized ML Platform in a highly autonomous organization, focusing on their feature store strategy.
+
+   - [Real-time Data Infrastructure at Spotify](https://arxiv.org/pdf/2104.0087.pdf)
+     This paper describes Spotify's real-time data infrastructure, which processes petabytes of data daily to support various use cases including customer incentives, fraud detection, and machine learning model predictions.
+
+   - [The Rise (and Lessons Learned) of ML Models to Personalize Content on Home (Part I)](https://engineering.atspotify.com/2021/11/the-rise-and-lessons-learned-of-ml-models-to-personalize-content-on-home-part-i/)
+      Spotify's journey in implementing real-time ML models for personalized content recommendations on their Home page, including challenges in evaluation and automated deployment.
+
+   - [The Rise (and Lessons Learned) of ML Models to Personalize Content on Home (Part II)](https://engineering.atspotify.com/2021/11/the-rise-and-lessons-learned-of-ml-models-to-personalize-content-on-home-part-ii/)
+      Spotify's journey in implementing real-time ML models for personalized content recommendations on their Home page, including challenges in evaluation and automated deployment.
 
 8. **Instacart** (E-commerce, Grocery Delivery, Technology)
 
