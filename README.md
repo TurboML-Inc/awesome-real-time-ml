@@ -305,19 +305,25 @@ We at TurboML are democratising real time ML / AI. Here's a curated list of awes
      This presentation by Raghav Ramesh discusses DoorDash's approach to structuring machine learning systems in production for robust and wide-scale deployment of real-time predictions.
 
    - [How DoorDash Upgraded a Heuristic with ML to Save Thousands of Canceled Orders](https://careersatdoordash.com/blog/how-doordash-upgraded-a-heuristic-with-ml-to-save-thousands-of-canceled-orders/)
+      DoorDash implemented real-time ML to replace heuristics, reducing order cancellations by predicting and mitigating potential issues.
 
    - [Personalizing the DoorDash Retail Store Page Experience](https://careersatdoordash.com/blog/personalizing-the-doordash-retail-store-page-experience/)
+      DoorDash uses real-time ML to personalize retail store pages, dynamically adjusting content based on user preferences and behavior.
 
    - [Homepage Recommendation with Exploitation and Exploration](https://careersatdoordash.com/blog/homepage-recommendation-with-exploitation-and-exploration/)
+      DoorDash's homepage employs real-time ML for personalized recommendations, balancing exploitation of known preferences with exploration of new options.
 
    - [Managing Supply and Demand Balance Through Machine Learning](https://careersatdoordash.com/blog/managing-supply-and-demand-balance-through-machine-learning/)
+      DoorDash utilizes real-time ML models to dynamically balance supply and demand, optimizing resource allocation across their platform.
 
    - [3 Changes to Expand DoorDash's Product Search Beyond Delivery](https://careersatdoordash.com/blog/3-changes-to-expand-doordashs-product-search/)
+      DoorDash enhanced their product search with real-time ML, improving relevance and expanding beyond delivery to include pickup and other services.
 
    - [Improving ETAs with multi-task models, deep learning, and probabilistic forecasts](https://careersatdoordash.com/blog/improving-etas-with-multi-task-models-deep-learning-and-probabilistic-forecasts/)
+      DoorDash leverages real-time ML with multi-task models and deep learning to provide more accurate and probabilistic delivery time estimates.
 
    - [Beyond the Click: Elevating DoorDash's personalized notification experience with GNN recommendation](https://careersatdoordash.com/blog/doordash-customize-notifications-how-gnn-work/)
-
+      DoorDash implements real-time Graph Neural Networks (GNN) to personalize notifications, enhancing user engagement beyond simple click-based recommendations.
 
 11. **Grab** (Technology, Ride-Hailing, Food Delivery, and Digital Payments)
 
