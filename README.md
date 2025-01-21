@@ -442,25 +442,56 @@ We at TurboML are democratising real time ML / AI. Here's a curated list of awes
     - [Email Classification](https://slack.engineering/email-classification/)
       Slack uses real-time machine learning to classify incoming email addresses for optimal collaboration suggestions.
 
-26. **Swiggy** (Food Delivery, Technology, and E-commerce)
+17. **Swiggy**
 
-- [Building Rock-Solid ML Systems](https://bytes.swiggy.com/building-rock-solid-ml-systems-d1d5ab544f0e)
-- [Swiggy's Generative AI Journey: A Peek Into the Future](https://bytes.swiggy.com/swiggys-generative-ai-journey-a-peek-into-the-future-2193c7166d9a)
-- [Swiggylytics: Swiggy's real-time Analytics SDK](https://bytes.swiggy.com/swiggylytics-5046978965dc)
-- [Hyperlocal Forecasting at Scale: The Swiggy Forecasting platform](https://bytes.swiggy.com/hyperlocal-forecasting-at-scale-the-swiggy-forecasting-platform-c07ecd5f5b86)
-- [Enabling data science at scale at Swiggy: the DSP story](https://bytes.swiggy.com/enabling-data-science-at-scale-at-swiggy-the-dsp-story-208c2d85faf9)
-- [Deploying deep learning models at scale at Swiggy: Tensorflow Serving on DSP](https://bytes.swiggy.com/deploying-deep-learning-models-at-scale-at-swiggy-tensorflow-serving-on-dsp-ad5da40f7a6c)
-- [An ML approach for routing payment transactions](https://bytes.swiggy.com/an-ml-approach-for-routing-payment-transactions-5a14efb643a8)
-- [How ML Powers — When is my order coming?](https://bytes.swiggy.com/how-ml-powers-when-is-my-order-coming-part-ii-eae83575e3a9)
+    *Industry*: Food Delivery, Technology, and E-commerce
 
-27. **Nubank** (Financial Technology (Fintech), Digital Banking)
+    - [Building Rock-Solid ML Systems](https://bytes.swiggy.com/building-rock-solid-ml-systems-d1d5ab544f0e)
+      This blog post explores how Swiggy ensures ML reliability at scale by focusing on best practices that deliver consistent performance across their systems.
 
-- [Presenting Precog, Nubank's Real Time Event AI](https://building.nubank.com.br/presenting-precog-nubanks-real-time-event-ai/)
-- [Real-time machine learning models in real life](https://building.nubank.com.br/real-time-machine-learning-models-in-real-life/)
-- [Fklearn: Nubank's machine learning library](https://building.nubank.com.br/introducing-fklearn-nubanks-machine-learning-library-part-i-2/)
-- [The potential of sequential modeling in fraud prevention](https://building.nubank.com.br/the-potential-of-sequential-modeling-in-fraud-prevention-insights-from-experts-at-nubank/)
-- [Nubank acquires Hyperplane to accelerate AI-first strategy](https://www.fintechfutures.com/2024/06/brazils-nubank-buys-ai-powered-data-intelligence-start-up-hyperplane/)
-- [Beyond prediction machines](https://building.nubank.com.br/beyond-prediction-machines/)
+    - [Swiggy's Generative AI Journey: A Peek Into the Future](https://bytes.swiggy.com/swiggys-generative-ai-journey-a-peek-into-the-future-2193c7166d9a)
+      This article discusses Swiggy's implementation of AI-powered neural search to help users discover food and groceries in a conversational manner, receiving tailored recommendations.
+
+    - [Swiggylytics: Swiggy's real-time Analytics SDK](https://bytes.swiggy.com/swiggylytics-5046978965dc)
+      This blog post details Swiggy's customizable analytics SDK for real-time data, enabling remote configuration and marking of real-time events.
+
+    - [Hyperlocal Forecasting at Scale: The Swiggy Forecasting platform](https://bytes.swiggy.com/hyperlocal-forecasting-at-scale-the-swiggy-forecasting-platform-c07ecd5f5b86)
+      This article discusses Swiggy's centralized forecasting service, which enables end-users to generate accurate forecasts quickly and cost-effectively.
+
+    - [Enabling data science at scale at Swiggy: the DSP story](https://bytes.swiggy.com/enabling-data-science-at-scale-at-swiggy-the-dsp-story-208c2d85faf9)
+      This blog post introduces Swiggy's Data Science Platform (DSP), an in-house ML deployment and orchestration platform that supports hundreds of real-time and batch models generating over 1 billion predictions per day.
+
+    - [Deploying deep learning models at scale at Swiggy: Tensorflow Serving on DSP](https://bytes.swiggy.com/deploying-deep-learning-models-at-scale-at-swiggy-tensorflow-serving-on-dsp-ad5da40f7a6c)
+      This article details Swiggy's implementation of Tensorflow Serving capability on their Data Science Platform for deploying deep learning models at scale.
+
+    - [An ML approach for routing payment transactions](https://bytes.swiggy.com/an-ml-approach-for-routing-payment-transactions-5a14efb643a8)
+      This blog post explains how Swiggy uses machine learning to optimally route payment transactions to different payment gateways, improving payment success rates.
+
+    - [How ML Powers — When is my order coming?](https://bytes.swiggy.com/how-ml-powers-when-is-my-order-coming-part-ii-eae83575e3a9)
+      Swiggy uses real-time machine learning models to provide accurate delivery time estimates, considering various dynamic factors affecting order fulfillment.
+
+18. **Nubank**
+
+    *Industry*: Financial Technology (Fintech), Digital Banking
+
+    - [Presenting Precog, Nubank's Real Time Event AI](https://building.nubank.com.br/presenting-precog-nubanks-real-time-event-ai/)
+      This article introduces Precog, Nubank's AI solution designed to improve customer service by efficiently routing calls using customer embeddings and features, significantly enhancing the customer experience.
+
+    - [Real-time machine learning models in real life](https://building.nubank.com.br/real-time-machine-learning-models-in-real-life/)
+      This blog post details Nubank's approach to implementing real-time machine learning models, discussing challenges and solutions for fast inference and real-time pipelines.
+
+    - [Fklearn: Nubank's machine learning library](https://building.nubank.com.br/introducing-fklearn-nubanks-machine-learning-library-part-i-2/)
+      This article introduces Fklearn, Nubank's in-house machine learning library that powers a broad set of ML models, solving problems from credit scoring to automated customer support chat responses.
+
+    - [The potential of sequential modeling in fraud prevention](https://building.nubank.com.br/the-potential-of-sequential-modeling-in-fraud-prevention-insights-from-experts-at-nubank/)
+      This post discusses how Nubank leverages sequential modeling, an advanced machine learning technique, to detect and prevent fraud in real-time.
+
+    - [Nubank acquires Hyperplane to accelerate AI-first strategy](https://www.fintechfutures.com/2024/06/brazils-nubank-buys-ai-powered-data-intelligence-start-up-hyperplane/)
+      This article discusses Nubank's acquisition of Hyperplane, a data intelligence company, to enhance its AI capabilities for providing more personalized financial products and services.
+
+    - [Beyond prediction machines](https://building.nubank.com.br/beyond-prediction-machines/)
+      Nubank explores causal inference techniques beyond traditional ML for real-time decision-making in credit limits, interest rates, and marketing strategies.
+      
 
 ## Videos
 
