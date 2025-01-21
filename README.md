@@ -82,8 +82,6 @@ We at TurboML are democratising real time ML / AI. Here's a curated list of awes
 
 ## Real-Time ML Internal Platform Resources
 
-## Real-Time ML Internal Platform Resources
-
 1. **Picnic**
 
    *Industry*: e-commerce and grocery retail
@@ -325,23 +323,64 @@ We at TurboML are democratising real time ML / AI. Here's a curated list of awes
    - [Beyond the Click: Elevating DoorDash's personalized notification experience with GNN recommendation](https://careersatdoordash.com/blog/doordash-customize-notifications-how-gnn-work/)
       DoorDash implements real-time Graph Neural Networks (GNN) to personalize notifications, enhancing user engagement beyond simple click-based recommendations.
 
-11. **Grab** (Technology, Ride-Hailing, Food Delivery, and Digital Payments)
+10. **Booking.com**
 
-- [Real-time data ingestion in Grab](https://engineering.grab.com/real-time-data-ingestion)
-- [How we got more accurate estimated time-of-arrivals in the app while pushing down tech costs](https://www.grab.com/sg/inside-grab/how-we-got-more-accurate-estimated-time-of-arrivals-in-the-app-while-pushing-down-tech-costs/)
-- [GrabRideGuide, our new AI tool that predicts ride demand hotspots](https://www.grab.com/sg/inside-grab/stories/grabrideguide-our-new-ai-tool-that-predicts-high-demand-areas/)
-- [Evolution of Catwalk: Model serving platform at Grab](https://engineering.grab.com/catwalk-evolution)
-- [Grab App at Scale with ScyllaDB](https://www.scylladb.com/2021/06/23/grab-app-at-scale-with-scylla/)
-- [Harnessing AI for public good: Grab's approach to AI Governance](https://www.grab.com/sg/inside-grab/stories/harnessing-ai-for-public-good-grabs-approach-to-ai-governance/)
-- [Unsupervised graph anomaly detection - Catching new fraudulent behaviours](https://engineering.grab.com/graph-anomaly-model)
+    *Industry*: Travel and Technology
 
-12. **Didact AI** (Finance, Machine Learning, Stock Trading)
+    - [Booking.com Launches New AI Trip Planner to Enhance Travel Planning Experience](https://news.booking.com/bookingcom-launches-new-ai-trip-planner-to-enhance-travel-planning-experience/)
+      This announcement introduces Booking.com's AI Trip Planner, which uses machine learning models and large language model technology to create a conversational experience for trip planning.
 
-- [Didact AI: The anatomy of an ML-powered stock picking engine](https://principiamundi.com/posts/didact-anatomy/)
+    - [Booking.com Enhances Travel Planning with New AI-Powered Features for Easier, Smarter Decisions](https://news.booking.com/bookingcom-enhances-travel-planning-with-new-ai-powered-features--for-easier-smarter-decisions/)
+      This article discusses Booking.com's expansion of AI-powered features, including Smart Filter, Property Q&A, and Review Summaries, which use Generative AI to simplify key steps in the trip planning process.
 
-13. **Glassdoor** (Technology, Job Search and Company Reviews)
+    - [Machine Learning in production: the Booking.com approach](https://booking.ai/https-booking-ai-machine-learning-production-3ee8fe943c70)
+      This article discusses how Booking.com integrates machine learning into every step of the customer journey, detailing their approach to productionizing ML models.
 
-- [Glassdoor uses machine learning to tell users if they're being paid fairly](https://www.zdnet.com/article/glassdoor-uses-machine-learning-to-tell-users-if-theyre-being-paid-fairly/)
+    - [Booking.com: Building a Scalable Machine Learning Platform](https://h2o.ai/case-studies/booking-com/)
+      This case study describes how Booking.com built a machine learning platform that scales to support their 200 data scientists and processes 1.5 million nights reserved every day.
+
+    - [Booking.com accelerates data analysis with Confluent Cloud](https://www.confluent.io/customers/booking-com/)
+      This customer story details how Booking.com transitioned from a self-managed Apache Kafka deployment to Confluent Cloud to improve reliability and enhance data management capabilities.
+
+    - [Leverage graph technology for real-time Fraud Detection and Prevention](https://medium.com/booking-com-development/leverage-graph-technology-for-real-time-fraud-detection-and-prevention-438336076ea5)
+
+11. **Grab**
+
+    *Industry*: Technology, Ride-Hailing, Food Delivery, and Digital Payments
+
+    - [Real-time data ingestion in Grab](https://engineering.grab.com/real-time-data-ingestion)
+      This article discusses Grab's approach to real-time data ingestion, which enables faster business decisions, optimizes data pipelines, and provides audit trails for fraud detection.
+
+    - [How we got more accurate estimated time-of-arrivals in the app while pushing down tech costs](https://www.grab.com/sg/inside-grab/how-we-got-more-accurate-estimated-time-of-arrivals-in-the-app-while-pushing-down-tech-costs/)
+      This blog post details how Grab consolidated their machine learning models for ETA prediction using their internal ML platform Catwalk, improving accuracy and reducing computing costs.
+
+    - [GrabRideGuide, our new AI tool that predicts ride demand hotspots](https://www.grab.com/sg/inside-grab/stories/grabrideguide-our-new-ai-tool-that-predicts-high-demand-areas/)
+      This article introduces GrabRideGuide, a fully automated real-time ride demand finder for Grab driver-partners, which uses AI to analyze past trends and suggest optimal routes.
+
+    - [Evolution of Catwalk: Model serving platform at Grab](https://engineering.grab.com/catwalk-evolution)
+      This post discusses Catwalk, Grab's ML model serving platform that powers their real-time decision-making capabilities across various services.
+
+    - [Grab App at Scale with ScyllaDB](https://www.scylladb.com/2021/06/23/grab-app-at-scale-with-scylla/)
+      This article describes how Grab uses ScyllaDB for real-time counters to detect fraud, identity, and safety risks, processing billions of events per day.
+
+    - [Harnessing AI for public good: Grab's approach to AI Governance](https://www.grab.com/sg/inside-grab/stories/harnessing-ai-for-public-good-grabs-approach-to-ai-governance/)
+      This blog post outlines Grab's use of AI and machine learning models for real-time automated decision-making to enhance customer experiences.
+
+    - [Unsupervised graph anomaly detection - Catching new fraudulent behaviours](https://engineering.grab.com/graph-anomaly-model)
+
+12. **Didact AI**
+
+    *Industry*: Finance, Machine Learning, Stock Trading
+
+    - [Didact AI: The anatomy of an ML-powered stock picking engine](https://principiamundi.com/posts/didact-anatomy/)
+      This blog post details the architecture and technology behind Didact AI's machine learning-based stock picking engine, which consistently beat the S&P 500 for over a year on a weekly basis.
+
+13. **Glassdoor**
+
+    *Industry*: Technology, Job Search and Company Reviews
+
+    - [Glassdoor uses machine learning to tell users if they're being paid fairly](https://www.zdnet.com/article/glassdoor-uses-machine-learning-to-tell-users-if-theyre-being-paid-fairly/)
+      This article discusses how Glassdoor uses machine learning to analyze millions of salary reports and real-time supply and demand trends in local job markets to determine fair pay.
 
 13. **Instacart** (E-commerce, Grocery Delivery, Technology)
 
