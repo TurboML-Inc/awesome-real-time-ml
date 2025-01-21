@@ -82,8 +82,11 @@ We at TurboML are democratising real time ML / AI. Here's a curated list of awes
 
 ## Real-Time ML Internal Platform Resources
 
+## Real-Time ML Internal Platform Resources
+
 1. **Picnic**
-   Industry: e-commerce and grocery retail
+
+   *Industry*: e-commerce and grocery retail
 
    - [Picnic's Lakeless Data Warehouse](https://blog.picnic.nl/picnics-lakeless-data-warehouse-8ec02801d50b)
      This article discusses Picnic's data architecture, including near-real-time data processing for analytics.
@@ -95,7 +98,8 @@ We at TurboML are democratising real time ML / AI. Here's a curated list of awes
      This blog post describes Picnic's use of machine learning for real-time optimization of delivery times.
 
 2. **Netflix**
-   Industry: Media and Entertainment, Streaming Services
+
+   *Industry*: Media and Entertainment, Streaming Services
 
    - [Supporting Diverse ML Systems at Netflix](https://netflixtechblog.com/supporting-diverse-ml-systems-at-netflix-2d2e6b6d205d)
      This article discusses Netflix's Machine Learning Platform (MLP) and how it supports various ML systems, including real-time applications.
@@ -119,7 +123,8 @@ We at TurboML are democratising real time ML / AI. Here's a curated list of awes
      This research publication discusses Netflix's use of reinforcement learning for optimizing real-time data ingestion in deep learning recommendation models.
 
 3. **Uber**
-   Industry: Transportation and Technology
+
+   *Industry*: Transportation and Technology
 
    - [Real-time Data Infrastructure at Uber](https://arxiv.org/pdf/2104.0087.pdf)
      This paper describes Uber's real-time data infrastructure, which processes petabytes of data daily to support various use cases including customer incentives, fraud detection, and machine learning model predictions.
@@ -150,7 +155,6 @@ We at TurboML are democratising real time ML / AI. Here's a curated list of awes
 
    - [Stopping Uber Fraudsters Through Risk Challenges](https://www.uber.com/en-GB/blog/stopping-uber-fraudsters-through-risk-challenges/)
      Uber's real-time ML system implements risk challenges like penny drop verification to detect and mitigate payment fraud dynamically.
-
 
 4. **TikTok** (Social Media, Entertainment, and Technology)
 
