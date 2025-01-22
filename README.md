@@ -14,15 +14,29 @@ We at TurboML are democratising real time ML / AI. Here's a curated list of awes
 
 1. **Data Ingestion and Streaming**
    - [Apache Kafka](https://kafka.apache.org/)
+   - [Redpanda](https://github.com/redpanda-data/redpanda)
    - [Apache Flink](https://flink.apache.org/)
    - [Apache Pulsar](https://pulsar.apache.org/)
    - [Amazon Kinesis](https://aws.amazon.com/kinesis/)
 
 2. **Feature Engineering and Feature Store**
+   - [Volga](https://github.com/volga-project/volga)
+   - [Feathr](https://github.com/feathr-ai/feathr)
+   - [Chronon](https://github.com/airbnb/chronon)
+   - [FeatureForm](https://github.com/featureform/featureform)
+   - [Hopsworks](https://github.com/logicalclocks/hopsworks)
+   - [Kaskada](https://github.com/kaskada-ai/kaskada)
    - [Feast](https://feast.dev/)
+   - [Caraml](https://github.com/caraml-dev/caraml-store)
    - [Tecton](https://www.tecton.ai/)
+   - [Fennel](https://www.fennel.ai/)
+   - [Chalk](https://www.chalk.ai/)
+   - [Zipline](https://www.zipline.ai/)
    - [Amazon SageMaker Feature Store](https://aws.amazon.com/sagemaker/feature-store/)
    - [Vertex AI Feature Store](https://cloud.google.com/vertex-ai/docs/featurestore)
+   - [Databricks Feature Store](https://www.databricks.com/product/feature-store)
+   - [Snowflake Feature Store](https://docs.snowflake.com/en/developer-guide/snowflake-ml/feature-store/overview)
+   - [Microsoft Azure Feature Store](https://aka.ms/featurestore-get-started)
 
 3. **Model Development and Training**
    - [TensorFlow](https://www.tensorflow.org/)
