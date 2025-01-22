@@ -1,6 +1,6 @@
 # Awesome Real-Time Machine Learning [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-We at TurboML are democratising real time ML / AI. Here's a curated list of awesome real-time machine learning blogs, videos, tools and platforms, conferences, research papers, etc.
+Here's a curated list of awesome real-time machine learning blogs, videos, tools and platforms, conferences, research papers, etc.
 
 ## Table of Contents
 - [Tools & Workflow Stages](#tools--workflow-stages)
