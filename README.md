@@ -12,14 +12,43 @@ Here's a curated list of awesome real-time machine learning blogs, videos, tools
 
 ## Tools & Workflow Stages
 
-1. **Data Ingestion and Streaming**
+1. **Event streaming platform**
    - [Apache Kafka](https://kafka.apache.org/)
    - [Redpanda](https://github.com/redpanda-data/redpanda)
    - [Apache Flink](https://flink.apache.org/)
    - [Apache Pulsar](https://pulsar.apache.org/)
    - [Amazon Kinesis](https://aws.amazon.com/kinesis/)
+   - [Apache RocketMQ](https://github.com/apache/rocketmq/)
+   - [AutoMQ](https://github.com/AutoMQ/automq/)
+   - [Fluvio](https://github.com/infinyon/fluvio/)
+   - [Gazette](https://github.com/gazette/core/)
+   - [NATS](https://nats.io/)
+   - [Nsq](https://github.com/nsqio/nsq/)
 
-2. **Feature Engineering and Feature Store**
+2. **Streaming Engine**
+   - [Apache Flink](https://flink.apache.org/)
+   - [Apache Kafka Streams](https://kafka.apache.org/documentation/streams/)
+   - [Apache Samza](https://samza.apache.org/)
+   - [Apache Spark](https://spark.apache.org/)
+   - [Apache Storm](https://storm.apache.org/)
+   - [Arroyo](https://arroyo.dev/)
+   - [Bytewax](https://github.com/bytewax/bytewax)
+   - [Faust](https://github.com/faust-streaming/faust/)
+   - [Feldera](https://feldera.ai/)
+   - [Mantis](https://netflix.github.io/mantis/)
+   - [Materialize](https://materialize.com/)
+   - [Numaflow](https://github.com/numaproj/numaflow)
+   - [Pathway](https://pathway.com/)
+   - [Quix Streams](https://github.com/quixio/quix-streams)
+   - [Scramjet Transform Hub](https://github.com/scramjetorg/scramjet)
+   - [Timeplus Proton](https://timeplus.io/)
+   - [HStreamDB](https://hstream.io/)
+   - [eKuiper](https://github.com/lf-edge/ekuiper)
+   - [Warpstream](https://warpstream.io/)
+   - [WindFlow](https://github.com/ParaGroup/WindFlow)
+   - [RisingWave](https://www.risingwave.dev/)
+
+3. **Feature Engineering and Feature Store**
    - [Volga](https://github.com/volga-project/volga)
    - [OpenMLDB](https://github.com/4paradigm/OpenMLDB)
    - [Feathr](https://github.com/feathr-ai/feathr)
@@ -46,41 +75,113 @@ Here's a curated list of awesome real-time machine learning blogs, videos, tools
    - [Snowflake Feature Store](https://docs.snowflake.com/en/developer-guide/snowflake-ml/feature-store/overview)
    - [Microsoft Azure Feature Store](https://aka.ms/featurestore-get-started)
 
-3. **Model Development and Training**
-   - [TensorFlow](https://www.tensorflow.org/)
+4. **Model Development and Training**
+   - [Adapters](https://github.com/Adapter-Hub/adapter-transformers)
+   - [AutoTrain Advanced](https://huggingface.co/autotrain)
+   - [Composer](https://github.com/mosaicml/composer)
+   - [Flax](https://flax.readthedocs.io/)
+   - [H2O-3](https://www.h2o.ai/products/h2o/)
+   - [Jax](https://github.com/google/jax)
+   - [PEFT](https://github.com/huggingface/peft)
    - [PyTorch](https://pytorch.org/)
-   - [Scikit-learn](https://scikit-learn.org/)
+   - [scikit-learn](https://scikit-learn.org/)
+   - [SetFit](https://github.com/huggingface/setfit)
+   - [TensorFlow](https://www.tensorflow.org/)
+   - [torchkeras](https://github.com/lyhue1991/torchkeras)
+
+5. **Workflow Orchestration**
+   - [Airflow](https://airflow.apache.org/)
+   - [Argo Workflows](https://argoproj.github.io/argo-workflows/)
+   - [Dagster](https://dagster.io/)
+   - [Kubeflow Pipelines](https://www.kubeflow.org/docs/components/pipelines/overview/)
+   - [Metaflow](https://metaflow.org/)
+   - [Prefect](https://www.prefect.io/)
+   - [ZenML](https://github.com/zenml-io/zenml)
    - [MLflow](https://mlflow.org/)
-   - [Kubeflow](https://www.kubeflow.org/)
+   - [Guild AI](https://guild.ai/)
+   - [Polyaxon](https://polyaxon.com/)
+   - [Dask](https://www.dask.org/)
+   - [Luigi](https://luigi.readthedocs.io/)
+   - [Snakemake](https://snakemake.readthedocs.io/)
+   - [Ray](https://ray.io/)
+   - [Flyte](https://flyte.org/)
+   - [KubeFlow](https://www.kubeflow.org/)
 
-4. **Model Deployment and Serving**
-   - [TensorFlow Serving](https://www.tensorflow.org/tfx/guide/serving)
-   - [TorchServe](https://pytorch.org/serve/)
-   - [Seldon Core](https://www.seldon.io/solutions/open-source-projects/core)
-   - [KServe](https://kserve.github.io/website/)
-   - [BentoML](https://www.bentoml.com/)
+6. **Experiment and Metadata Management**
+   - [AI2 Tango](https://github.com/allenai/tango)
+   - [Aim](https://github.com/aimhubio/aim)
+   - [Catalyst](https://github.com/catalyst-team/catalyst)
+   - [ClearML](https://github.com/allegroai/clearml)
+   - [CodaLab](https://github.com/codalab/codalab-worksheets)
+   - [Deepkit](https://github.com/deepkit/deepkit-ml)
+   - [Dolt](https://github.com/dolthub/dolt)
+   - [DVC](https://github.com/iterative/dvc)
+   - [Flor](https://github.com/ucbrise/flor)
+   - [Guild AI](https://github.com/guildai/guildai)
+   - [Hangar](https://github.com/tensorwerk/hangar-py)
+   - [Keepsake](https://github.com/replicate/keepsake)
+   - [KitOps](https://github.com/jozu-ai/kitops)
+   - [lakeFS](https://github.com/treeverse/lakeFS)
+   - [MLflow](https://github.com/mlflow/mlflow)
+   - [ModelDB](https://github.com/VertaAI/modeldb)
+   - [ModelStore](https://github.com/operatorai/modelstore)
+   - [Neptune](https://github.com/neptune-ai/neptune-client)
+   - [ormb](https://github.com/kleveross/ormb)
+   - [Polyaxon](https://github.com/polyaxon/polyaxon)
+   - [Quilt](https://github.com/quiltdata/quilt)
+   - [Sacred](https://github.com/IDSIA/sacred)
+   - [Studio](https://github.com/studioml/studio)
+   - [TerminusDB](https://github.com/terminusdb/terminusdb)
+   - [Weights & Biases](https://github.com/wandb/wandb)
 
-5. **Real-Time Inference**
-   - [NVIDIA Triton Inference Server](https://developer.nvidia.com/nvidia-triton-inference-server)
+7. **Model Deployment and Serving**
+   - [AirLLM](https://github.com/lyogavin/airllm)
+   - [Apache PredictionIO](https://github.com/apache/predictionio)
    - [Apache TVM](https://tvm.apache.org/)
+   - [BentoML](https://github.com/bentoml/BentoML)
+   - [Cortex](https://github.com/cortexlabs/cortex)
+   - [DeepDetect](https://github.com/jolibrain/deepdetect)
+   - [Hydrosphere Serving](https://github.com/Hydrospheredata/hydro-serving)
+   - [Jina](https://github.com/jina-ai/jina)
+   - [KServe](https://github.com/kserve/kserve)
+   - [MindsDB](https://github.com/mindsdb/mindsdb)
+   - [MLRun](https://github.com/mlrun/mlrun)
+   - [MLServer](https://github.com/SeldonIO/mlserver)
    - [ONNX Runtime](https://onnxruntime.ai/)
+   - [Seldon Core](https://github.com/SeldonIO/seldon-core)
+   - [SkyPilot](https://github.com/skypilot-org/skypilot)
+   - [SparseML](https://github.com/neuralmagic/sparseml)
+   - [TorchServe](https://github.com/pytorch/serve)
+   - [Tensorflow Serving](https://github.com/tensorflow/serving)
+   - [Triton Inference Server](https://github.com/triton-inference-server/server)
 
-6. **Monitoring and Feedback Loop**
-   - [Prometheus](https://prometheus.io/)
+8. **Monitoring and Feedback Loop**
+   - [AlpacaEval](https://github.com/tatsu-lab/alpaca_eval)
+   - [ARES](https://github.com/stanford-futuredata/ARES)
+   - [AutoML Benchmark](https://github.com/openml/automlbenchmark)
+   - [continuous-eval](https://github.com/relari-ai/continuous-eval)
+   - [Deepchecks](https://github.com/deepchecks/deepchecks)
+   - [DeepEval](https://github.com/confident-ai/deepeval)
+   - [EvalAI](https://github.com/Cloud-CV/EvalAI)
+   - [Evals](https://github.com/openai/evals)
+   - [Evaluate](https://github.com/huggingface/evaluate)
+   - [Evidently](https://github.com/evidentlyai/evidently)
    - [Grafana](https://grafana.com/)
-   - [Evidently AI](https://www.evidentlyai.com/)
+   - [Giskard](https://github.com/Giskard-AI/giskard)
+   - [Helicone](https://github.com/Helicone/helicone)
+   - [HELM](https://github.com/stanford-crfm/helm)
+   - [Langfuse](https://github.com/langfuse/langfuse)
+   - [LightEval](https://github.com/huggingface/lighteval)
+   - [MLPerf Inference](https://github.com/mlcommons/inference)
+   - [MTEB](https://github.com/embeddings-benchmark/mteb)
+   - [NannyML](https://github.com/NannyML/nannyml)
+   - [OpenCompass](https://github.com/open-compass/OpenCompass)
+   - [Optimum-Benchmark](https://github.com/huggingface/optimum-benchmark)
+   - [Phoenix](https://github.com/Arize-ai/phoenix) 
+   - [Prometheus](https://prometheus.io/)
+   - [PromptBench](https://github.com/microsoft/promptbench) 
+   - [Ragas](https://github.com/explodinggradients/ragas)
    - [WhyLabs](https://whylabs.ai/)
-
-7. **Orchestration and MLOps**
-   - [Apache Airflow](https://airflow.apache.org/)
-   - [Kubeflow Pipelines](https://www.kubeflow.org/docs/components/pipelines/)
-   - [MLflow](https://mlflow.org/)
-   - [Vertex AI Pipelines](https://cloud.google.com/vertex-ai/docs/pipelines)
-
-8. **Cloud Platforms**
-   - [Amazon SageMaker](https://aws.amazon.com/sagemaker/)
-   - [Google Cloud Vertex AI](https://cloud.google.com/vertex-ai)
-   - [Azure Machine Learning](https://azure.microsoft.com/en-us/services/machine-learning/)
 
 ## Traditional ML vs Real-Time ML
 
@@ -89,15 +190,15 @@ Here's a curated list of awesome real-time machine learning blogs, videos, tools
 | **Data Processing** | Processes static, historical datasets in batches. | Continuously ingests and processes streaming data in real-time. |
 | **Model Training** | Models are trained offline using complete datasets. | Models are updated incrementally as new data arrives, often using online learning algorithms. |
 | **Latency** | Can tolerate higher latency in processing and predictions. | Requires low-latency processing and near-instantaneous predictions. |
-| **Scalability** | Typically scales vertically with more powerful hardware. | Often requires horizontal scalability to handle high-volume data streams. |
+| **Scalability** | Typically scales vertically with more powerful hardware. Horizontal scaling is possible with distributed frameworks. | Often requires horizontal scalability to handle high-volume data streams. |
 | **Infrastructure** | Can run on standard computing resources. | Often requires specialized streaming infrastructure like Apache Kafka or Apache Flink. |
 | **Adaptability** | Models are less adaptive to changing patterns without manual retraining. | Models can adapt to concept drift and evolving patterns in real-time. |
 | **Feature Engineering** | Features are often engineered manually and in advance. | Features may be generated on-the-fly or use automated feature extraction techniques. |
 | **Model Deployment** | Models are deployed as static versions, updated periodically. | Models are continuously updated and deployed in a streaming fashion. |
-| **Use Cases** | Suitable for predictive analytics, customer segmentation, and offline recommendations. | Ideal for fraud detection, real-time bidding, and personalized recommendations. |
+| **Use Cases** | Effective for predictive analytics, segmentation, and batch or streaming data predictions. | Ideal for fraud detection, real-time bidding, and personalized recommendations. |
 | **Data Volume** | Can work effectively with smaller datasets. | Typically requires larger volumes of data for accurate real-time predictions. |
-| **Computational Resources** | Generally less computationally intensive. | Often requires more computational power to process streaming data continuously. |
-| **Monitoring** | Periodic model performance checks are sufficient. | Requires continuous monitoring of model performance and data quality. |
+| **Computational Resources** | Generally less computationally intensive. | Optimizes computational resource usage by processing data incrementally, reducing the need for reprocessing entire datasets, but may require consistent resource availability for real-time updates. |
+| **Monitoring** | Periodic model performance checks are usually sufficient unless operating in dynamic environments. | Requires continuous monitoring of model performance and data quality. |
 | **Feedback Loop** | Feedback is incorporated in batch updates. | Immediate feedback integration for rapid model adjustments. |
 | **Complexity** | Generally simpler to implement and maintain. | More complex, requiring specialized knowledge in streaming architectures and online learning algorithms. |
 | **Time-to-Insight** | Longer time from data collection to actionable insights. | Near-immediate insights from incoming data streams. |
@@ -647,7 +748,7 @@ Here's a curated list of awesome real-time machine learning blogs, videos, tools
 | Vendor | Description | Feature Store |
 |--------|-------------|---------------|
 | **[Tecton](https://www.tecton.ai/)** | Real-time Feature Platform offering Feature Engine, Feature Store, and Feature Repo for comprehensive Feature Management. Supports batch and streaming features, ensures data correctness, and provides low-latency serving for real-time ML applications. | Yes, integrated |
-| **[Hazelcast](https://hazelcast.com/)** | Unified Real-Time Data Platform with distributed compute engine and fast data store for Stream Processing. Enables real-time feature computation and model serving for ML applications. | No, but integrates with Feast |
+| **[Hazelcast](https://hazelcast.com/)** | Unified Real-Time Data Platform with distributed compute engine and fast data store for Stream Processing. Enables real-time feature computation and model serving for ML applications. | Can integrate with external feature stores |
 | **[Hopsworks](https://www.hopsworks.ai/)** | Serverless Feature Store supporting both online and offline features for real-time ML. Includes Model Management, Vector Database, and data-mesh architecture for efficient feature serving. | Yes, core offering |
 | **[Iguazio](https://www.iguazio.com/)** | End-to-end platform focused on real-time ML and GenAI, offering Data Management, Development & CI/CD, Deployment, and Monitoring & LiveOps for ML models. | Yes, integrated |
 | **[Xenonstack](https://www.xenonstack.com/)** | End-to-end real-time analytics platform, offering IoT Analytics, Stream and Batch Processing Integration, and Streaming Visualization Solutions for real-time ML applications. | Not specified |
@@ -664,7 +765,7 @@ Here's a curated list of awesome real-time machine learning blogs, videos, tools
 | **[DataStax](https://www.datastax.com/)** | Suite of data management solutions built on Apache Cassandra for handling real-time data at scale, supporting real-time feature computation for ML models. | Can be used as a feature store |
 | **[DataRobot](https://www.datarobot.com/)** | Complete ML and GenAI platform with Automated Machine Learning and Feature Engineering, supporting real-time feature computation and model serving. | Can integrate with external feature stores |
 | **[Feast](https://feast.dev/)** | Open Source Feature Store, widely used and integrated with various ML projects and vendors for real-time feature serving. | Yes, core offering |
-| **[Bytewax](https://bytewax.io/)** | Open-source stream processing framework for building real-time data applications in Python, enabling real-time feature computation for ML models. | Not specified |
+| **[Bytewax](https://bytewax.io/)** | Open-source stream processing framework for building real-time data applications in Python, enabling real-time feature computation for ML models. | Can integrate with external feature stores |
 | **[Kaskada](https://kaskada.com/)** | Real-Time AI streaming engine offering real-time aggregation, event detection, and history replay for ML feature computation. | Yes, integrated |
 
 ## Conferences
