@@ -4,6 +4,13 @@ Here's a curated list of awesome real-time machine learning blogs, videos, tools
 
 ## Table of Contents
 - [Tools & Workflow Stages](#tools--workflow-stages)
+    - [Event streaming platforms](#event-streaming-platforms)
+    - [Streaming Engines](#streaming-engines)
+    - [Feature Engineering and Feature Stores](#feature-engineering-and-feature-stores)
+    - [Model Development and Training](#model-development-and-training)
+    - [Experiment and Metadata Management](#experiment-and-metadata-management)
+    - [Model Deployment and Serving](#model-deployment-and-serving)
+    - [Monitoring and Feedback Loop](#monitoring-and-feedback-loop)
 - [Traditional ML vs Real-Time ML](#traditional-ml-vs-real-time-ml)
 - [Real-Time ML Internal Platform Resources](#real-time-ml-internal-platform-resources)
 - [Videos](#videos)
@@ -12,7 +19,7 @@ Here's a curated list of awesome real-time machine learning blogs, videos, tools
 
 ## Tools & Workflow Stages
 
-1. **Event streaming platform**
+1. ### Event streaming platforms
    - [Apache Kafka](https://kafka.apache.org/)
    - [Redpanda](https://github.com/redpanda-data/redpanda)
    - [Apache Flink](https://flink.apache.org/)
@@ -25,7 +32,7 @@ Here's a curated list of awesome real-time machine learning blogs, videos, tools
    - [NATS](https://nats.io/)
    - [Nsq](https://github.com/nsqio/nsq/)
 
-2. **Streaming Engine**
+2. ### Streaming Engines
    - [Apache Flink](https://flink.apache.org/)
    - [Apache Kafka Streams](https://kafka.apache.org/documentation/streams/)
    - [Apache Samza](https://samza.apache.org/)
@@ -48,7 +55,7 @@ Here's a curated list of awesome real-time machine learning blogs, videos, tools
    - [WindFlow](https://github.com/ParaGroup/WindFlow)
    - [RisingWave](https://www.risingwave.dev/)
 
-3. **Feature Engineering and Feature Store**
+3. ### Feature Engineering and Feature Stores
    - [Volga](https://github.com/volga-project/volga)
    - [OpenMLDB](https://github.com/4paradigm/OpenMLDB)
    - [Feathr](https://github.com/feathr-ai/feathr)
@@ -75,7 +82,7 @@ Here's a curated list of awesome real-time machine learning blogs, videos, tools
    - [Snowflake Feature Store](https://docs.snowflake.com/en/developer-guide/snowflake-ml/feature-store/overview)
    - [Microsoft Azure Feature Store](https://aka.ms/featurestore-get-started)
 
-4. **Model Development and Training**
+4. ### Model Development and Training
    - [Adapters](https://github.com/Adapter-Hub/adapter-transformers)
    - [AutoTrain Advanced](https://huggingface.co/autotrain)
    - [Composer](https://github.com/mosaicml/composer)
@@ -89,7 +96,7 @@ Here's a curated list of awesome real-time machine learning blogs, videos, tools
    - [TensorFlow](https://www.tensorflow.org/)
    - [torchkeras](https://github.com/lyhue1991/torchkeras)
 
-5. **Workflow Orchestration**
+5. ### Workflow Orchestration
    - [Airflow](https://airflow.apache.org/)
    - [Argo Workflows](https://argoproj.github.io/argo-workflows/)
    - [Dagster](https://dagster.io/)
@@ -107,7 +114,7 @@ Here's a curated list of awesome real-time machine learning blogs, videos, tools
    - [Flyte](https://flyte.org/)
    - [KubeFlow](https://www.kubeflow.org/)
 
-6. **Experiment and Metadata Management**
+6. ### Experiment and Metadata Management
    - [AI2 Tango](https://github.com/allenai/tango)
    - [Aim](https://github.com/aimhubio/aim)
    - [Catalyst](https://github.com/catalyst-team/catalyst)
@@ -134,7 +141,7 @@ Here's a curated list of awesome real-time machine learning blogs, videos, tools
    - [TerminusDB](https://github.com/terminusdb/terminusdb)
    - [Weights & Biases](https://github.com/wandb/wandb)
 
-7. **Model Deployment and Serving**
+7. ### Model Deployment and Serving
    - [AirLLM](https://github.com/lyogavin/airllm)
    - [Apache PredictionIO](https://github.com/apache/predictionio)
    - [Apache TVM](https://tvm.apache.org/)
@@ -155,7 +162,7 @@ Here's a curated list of awesome real-time machine learning blogs, videos, tools
    - [Tensorflow Serving](https://github.com/tensorflow/serving)
    - [Triton Inference Server](https://github.com/triton-inference-server/server)
 
-8. **Monitoring and Feedback Loop**
+8. ### Monitoring and Feedback Loop
    - [AlpacaEval](https://github.com/tatsu-lab/alpaca_eval)
    - [ARES](https://github.com/stanford-futuredata/ARES)
    - [AutoML Benchmark](https://github.com/openml/automlbenchmark)
