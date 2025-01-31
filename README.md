@@ -3,20 +3,20 @@
 Here's a curated list of awesome real-time machine learning blogs, videos, tools and platforms, conferences, research papers, etc.
 
 ## Table of Contents
-- [What even is "real-time" Machine Learning?](#what-even-is-real-time-machine-learning)
-- [Traditional ML vs Real-Time ML](#traditional-ml-vs-real-time-ml)
-- [Tools & Workflow Stages](#tools--workflow-stages)
-    - [Event streaming platforms](#event-streaming-platforms)
-    - [Streaming Engines](#streaming-engines)
-    - [Feature Engineering and Feature Stores](#feature-engineering-and-feature-stores)
-    - [Model Development and Training](#model-development-and-training)
-    - [Experiment and Metadata Management](#experiment-and-metadata-management)
-    - [Model Deployment and Serving](#model-deployment-and-serving)
-    - [Monitoring and Feedback Loop](#monitoring-and-feedback-loop)
-- [Real-Time ML Internal Platform Resources](#real-time-ml-internal-platform-resources)
-- [Videos](#videos)
-- [Vendors / Platforms](#vendors--platforms)
-- [Conferences](#conferences)
+- [🤔 What even is "real-time" Machine Learning?](#what-even-is-real-time-machine-learning)
+- [🆚 Traditional ML vs Real-Time ML](#traditional-ml-vs-real-time-ml)
+- [🛠️ Tools & Workflow Stages](#tools--workflow-stages)
+    - [📡 Event streaming platforms](#event-streaming-platforms)
+    - [⚙️ Streaming Engines](#streaming-engines)
+    - [🔧 Feature Engineering and Feature Stores](#feature-engineering-and-feature-stores)
+    - [🧠 Model Development and Training](#model-development-and-training)
+    - [📊 Experiment and Metadata Management](#experiment-and-metadata-management)
+    - [🚀 Model Deployment and Serving](#model-deployment-and-serving)
+    - [🔍 Monitoring and Feedback Loop](#monitoring-and-feedback-loop)
+- [🏗️ Real-Time ML Internal Platform Resources](#real-time-ml-internal-platform-resources)
+- [🎥 Videos](#videos)
+- [🏢 Vendors / Platforms](#vendors--platforms)
+- [🎪 Conferences](#conferences)
 
 ## What even is "real-time" Machine Learning?
 
