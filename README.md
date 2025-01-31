@@ -1,8 +1,10 @@
 # Awesome Real-Time Machine Learning [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-Here's a curated list of awesome real-time machine learning blogs, videos, tools and platforms, conferences, research papers, etc.
+This repository contains curated list of awesome real-time machine learning 
 
 ## Table of Contents
+- [What even is "real-time" Machine Learning?](#what-even-is-real-time-machine-learning)
+- [Traditional ML vs Real-Time ML](#traditional-ml-vs-real-time-ml)
 - [Tools & Workflow Stages](#tools--workflow-stages)
     - [Event streaming platforms](#event-streaming-platforms)
     - [Streaming Engines](#streaming-engines)
@@ -11,48 +13,71 @@ Here's a curated list of awesome real-time machine learning blogs, videos, tools
     - [Experiment and Metadata Management](#experiment-and-metadata-management)
     - [Model Deployment and Serving](#model-deployment-and-serving)
     - [Monitoring and Feedback Loop](#monitoring-and-feedback-loop)
-- [Traditional ML vs Real-Time ML](#traditional-ml-vs-real-time-ml)
 - [Real-Time ML Internal Platform Resources](#real-time-ml-internal-platform-resources)
 - [Videos](#videos)
 - [Vendors / Platforms](#vendors--platforms)
 - [Conferences](#conferences)
 
+## What even is "real-time" Machine Learning?
+
+Real-time Machine Learning involves making instant predictions or decisions using machine learning models as data is generated, enabling applications like fraud detection, personalized recommendations, and autonomous systems to respond immediately to new inputs. It requires low-latency processing, continuous data streams, and scalable infrastructure to deliver timely and accurate results.
+
+## Traditional ML vs Real-Time ML
+
+| Aspect | Traditional ML | Real-Time ML |
+|--------|----------------|--------------|
+| **Data Processing** | Processes static, historical datasets in batches. | Continuously ingests and processes streaming data in real-time. |
+| **Model Training** | Models are trained offline using complete datasets. | Models are updated incrementally as new data arrives, often using online learning algorithms. |
+| **Latency** | Can tolerate higher latency in processing and predictions. | Requires low-latency processing and near-instantaneous predictions. |
+| **Scalability** | Typically scales vertically with more powerful hardware. Horizontal scaling is possible with distributed frameworks. | Often requires horizontal scalability to handle high-volume data streams. |
+| **Infrastructure** | Can run on standard computing resources. | Often requires specialized streaming infrastructure like Apache Kafka or Apache Flink. |
+| **Adaptability** | Models are less adaptive to changing patterns without manual retraining. | Models can adapt to concept drift and evolving patterns in real-time. |
+| **Feature Engineering** | Features are often engineered manually and in advance. | Features may be generated on-the-fly or use automated feature extraction techniques. |
+| **Model Deployment** | Models are deployed as static versions, updated periodically. | Models are continuously updated and deployed in a streaming fashion. |
+| **Use Cases** | Effective for predictive analytics, segmentation, and batch or streaming data predictions. | Ideal for fraud detection, real-time bidding, and personalized recommendations. |
+| **Data Volume** | Can work effectively with smaller datasets. | Typically requires larger volumes of data for accurate real-time predictions. |
+| **Computational Resources** | Generally less computationally intensive. | Optimizes computational resource usage by processing data incrementally, reducing the need for reprocessing entire datasets, but may require consistent resource availability for real-time updates. |
+| **Monitoring** | Periodic model performance checks are usually sufficient unless operating in dynamic environments. | Requires continuous monitoring of model performance and data quality. |
+| **Feedback Loop** | Feedback is incorporated in batch updates. | Immediate feedback integration for rapid model adjustments. |
+| **Complexity** | Generally simpler to implement and maintain. | More complex, requiring specialized knowledge in streaming architectures and online learning algorithms. |
+| **Time-to-Insight** | Longer time from data collection to actionable insights. | Near-immediate insights from incoming data streams. |
+
 ## Tools & Workflow Stages
 
 1. ### Event streaming platforms
-   - [Apache Kafka](https://kafka.apache.org/)
-   - [Redpanda](https://github.com/redpanda-data/redpanda)
-   - [Apache Flink](https://flink.apache.org/)
-   - [Apache Pulsar](https://pulsar.apache.org/)
+   - [Apache Kafka](https://kafka.apache.org/) ![](https://img.shields.io/github/stars/apache/kafka.svg?style=social) 
+   - [Redpanda](https://github.com/redpanda-data/redpanda) ![](https://img.shields.io/github/stars/redpanda-data/redpanda.svg?style=social) 
+   - [Apache Flink](https://flink.apache.org/) ![](https://img.shields.io/github/stars/apache/flink.svg?style=social) 
+   - [Apache Pulsar](https://pulsar.apache.org/) ![](https://img.shields.io/github/stars/apache/pulsar.svg?style=social) 
    - [Amazon Kinesis](https://aws.amazon.com/kinesis/)
-   - [Apache RocketMQ](https://github.com/apache/rocketmq/)
-   - [AutoMQ](https://github.com/AutoMQ/automq/)
-   - [Fluvio](https://github.com/infinyon/fluvio/)
-   - [Gazette](https://github.com/gazette/core/)
-   - [NATS](https://nats.io/)
-   - [Nsq](https://github.com/nsqio/nsq/)
+   - [Apache RocketMQ](https://github.com/apache/rocketmq/) ![](https://img.shields.io/github/stars/apache/rocketmq.svg?style=social) 
+   - [AutoMQ](https://github.com/AutoMQ/automq/) ![](https://img.shields.io/github/stars/AutoMQ/automq.svg?style=social) 
+   - [Fluvio](https://github.com/infinyon/fluvio/) ![](https://img.shields.io/github/stars/infinyon/fluvio.svg?style=social) 
+   - [Gazette](https://github.com/gazette/core/) ![](https://img.shields.io/github/stars/gazette/core.svg?style=social) 
+   - [NATS](https://nats.io/) ![](https://img.shields.io/github/stars/nats-io/nats-server.svg?style=social) 
+   - [Nsq](https://github.com/nsqio/nsq/) ![](https://img.shields.io/github/stars/nsqio/nsq.svg?style=social) 
 
 2. ### Streaming Engines
-   - [Apache Flink](https://flink.apache.org/)
-   - [Apache Kafka Streams](https://kafka.apache.org/documentation/streams/)
-   - [Apache Samza](https://samza.apache.org/)
-   - [Apache Spark](https://spark.apache.org/)
-   - [Apache Storm](https://storm.apache.org/)
-   - [Arroyo](https://arroyo.dev/)
-   - [Bytewax](https://github.com/bytewax/bytewax)
-   - [Faust](https://github.com/faust-streaming/faust/)
-   - [Feldera](https://feldera.ai/)
-   - [Mantis](https://netflix.github.io/mantis/)
-   - [Materialize](https://materialize.com/)
-   - [Numaflow](https://github.com/numaproj/numaflow)
+   - [Apache Flink](https://flink.apache.org/) ![](https://img.shields.io/github/stars/apache/flink.svg?style=social) 
+   - [Apache Kafka Streams](https://kafka.apache.org/documentation/streams/) ![](https://img.shields.io/github/stars/apache/kafka.svg?style=social) 
+   - [Apache Samza](https://samza.apache.org/) ![](https://img.shields.io/github/stars/apache/samza.svg?style=social) 
+   - [Apache Spark](https://spark.apache.org/) ![](https://img.shields.io/github/stars/apache/spark.svg?style=social) 
+   - [Apache Storm](https://storm.apache.org/) ![](https://img.shields.io/github/stars/apache/storm.svg?style=social) 
+   - [Arroyo](https://arroyo.dev/) ![](https://img.shields.io/github/stars/ArroyoSystems/arroyo.svg?style=social)
+   - [Bytewax](https://github.com/bytewax/bytewax) ![](https://img.shields.io/github/stars/bytewax/bytewax.svg?style=social) 
+   - [Faust](https://github.com/faust-streaming/faust/) ![](https://img.shields.io/github/stars/faust-streaming/faust.svg?style=social) 
+   - [Feldera](https://www.feldera.com/) ![](https://img.shields.io/github/stars/feldera/feldera.svg?style=social)
+   - [Mantis](https://netflix.github.io/mantis/) ![](https://img.shields.io/github/stars/netflix/mantis.svg?style=social)
+   - [Materialize](https://materialize.com/) ![](https://img.shields.io/github/stars/MaterializeInc/materialize.svg?style=social)
+   - [Numaflow](https://github.com/numaproj/numaflow) ![](https://img.shields.io/github/stars/numaproj/numaflow.svg?style=social) 
    - [Pathway](https://pathway.com/)
-   - [Quix Streams](https://github.com/quixio/quix-streams)
-   - [Scramjet Transform Hub](https://github.com/scramjetorg/scramjet)
-   - [Timeplus Proton](https://timeplus.io/)
-   - [HStreamDB](https://hstream.io/)
-   - [eKuiper](https://github.com/lf-edge/ekuiper)
+   - [Quix Streams](https://github.com/quixio/quix-streams) ![](https://img.shields.io/github/stars/quixio/quix-streams.svg?style=social) 
+   - [Scramjet Transform Hub](https://github.com/scramjetorg/scramjet) ![](https://img.shields.io/github/stars/scramjetorg/scramjet.svg?style=social) 
+   - [Timeplus Proton](https://timeplus.io/) ![](https://img.shields.io/github/stars/timeplus-io/proton.svg?style=social) 
+   - [HStreamDB](https://hstream.io/) ![](https://img.shields.io/github/stars/hstreamdb/hstream.svg?style=social) 
+   - [eKuiper](https://github.com/lf-edge/ekuiper) ![](https://img.shields.io/github/stars/lf-edge/ekuiper.svg?style=social) 
    - [Warpstream](https://warpstream.io/)
-   - [WindFlow](https://github.com/ParaGroup/WindFlow)
+   - [WindFlow](https://github.com/ParaGroup/WindFlow) ![](https://img.shields.io/github/stars/ParaGroup/WindFlow.svg?style=social) 
    - [RisingWave](https://www.risingwave.dev/)
 
 3. ### Feature Engineering and Feature Stores
@@ -189,26 +214,6 @@ Here's a curated list of awesome real-time machine learning blogs, videos, tools
    - [PromptBench](https://github.com/microsoft/promptbench) 
    - [Ragas](https://github.com/explodinggradients/ragas)
    - [WhyLabs](https://whylabs.ai/)
-
-## Traditional ML vs Real-Time ML
-
-| Aspect | Traditional ML | Real-Time ML |
-|--------|----------------|--------------|
-| **Data Processing** | Processes static, historical datasets in batches. | Continuously ingests and processes streaming data in real-time. |
-| **Model Training** | Models are trained offline using complete datasets. | Models are updated incrementally as new data arrives, often using online learning algorithms. |
-| **Latency** | Can tolerate higher latency in processing and predictions. | Requires low-latency processing and near-instantaneous predictions. |
-| **Scalability** | Typically scales vertically with more powerful hardware. Horizontal scaling is possible with distributed frameworks. | Often requires horizontal scalability to handle high-volume data streams. |
-| **Infrastructure** | Can run on standard computing resources. | Often requires specialized streaming infrastructure like Apache Kafka or Apache Flink. |
-| **Adaptability** | Models are less adaptive to changing patterns without manual retraining. | Models can adapt to concept drift and evolving patterns in real-time. |
-| **Feature Engineering** | Features are often engineered manually and in advance. | Features may be generated on-the-fly or use automated feature extraction techniques. |
-| **Model Deployment** | Models are deployed as static versions, updated periodically. | Models are continuously updated and deployed in a streaming fashion. |
-| **Use Cases** | Effective for predictive analytics, segmentation, and batch or streaming data predictions. | Ideal for fraud detection, real-time bidding, and personalized recommendations. |
-| **Data Volume** | Can work effectively with smaller datasets. | Typically requires larger volumes of data for accurate real-time predictions. |
-| **Computational Resources** | Generally less computationally intensive. | Optimizes computational resource usage by processing data incrementally, reducing the need for reprocessing entire datasets, but may require consistent resource availability for real-time updates. |
-| **Monitoring** | Periodic model performance checks are usually sufficient unless operating in dynamic environments. | Requires continuous monitoring of model performance and data quality. |
-| **Feedback Loop** | Feedback is incorporated in batch updates. | Immediate feedback integration for rapid model adjustments. |
-| **Complexity** | Generally simpler to implement and maintain. | More complex, requiring specialized knowledge in streaming architectures and online learning algorithms. |
-| **Time-to-Insight** | Longer time from data collection to actionable insights. | Near-immediate insights from incoming data streams. |
 
 ## Real-Time ML Internal Platform Resources
 
