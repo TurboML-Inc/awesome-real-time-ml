@@ -1,4 +1,5 @@
-# Awesome Real-Time Machine Learning [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Real-Time Machine Learning [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![GitHub](https://img.shields.io/badge/License-MIT-lightgrey.svg) [![X](https://img.shields.io/badge/X-%23000000?logo=X&logoColor=white)](https://twitter.com/turboml)
+
 
 Here's a curated list of awesome real-time machine learning blogs, videos, tools and platforms, conferences, research papers, etc.
 
