@@ -1,6 +1,6 @@
 # Awesome Real-Time Machine Learning [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-This repository contains curated list of awesome real-time machine learning 
+Here's a curated list of awesome real-time machine learning blogs, videos, tools and platforms, conferences, research papers, etc.
 
 ## Table of Contents
 - [What even is "real-time" Machine Learning?](#what-even-is-real-time-machine-learning)
