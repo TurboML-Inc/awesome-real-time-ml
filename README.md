@@ -21,7 +21,11 @@ Here's a curated list of awesome real-time machine learning blogs, videos, tools
 
 ## What even is "real-time" Machine Learning?
 
-Real-time Machine Learning involves making instant predictions or decisions using machine learning models as data is generated, enabling applications like fraud detection, personalized recommendations, and autonomous systems to respond immediately to new inputs. It requires low-latency processing, continuous data streams, and scalable infrastructure to deliver timely and accurate results.
+Real-time Machine Learning (ML) delivers predictions and adapts models with extremely low latency, using fresh, continuously streaming data. It employs online or continual learning to instantly update models with new information, ensuring the most relevant insights for immediate actions. This dynamic approach contrasts with batch processing and is crucial for applications requiring instant responsiveness to changing patterns.
+
+- **Real-Time Predictions**: Model outputs generated on-demand as data arrives with extremely low latency.
+- **Real-Time Features**: Input attributes derived from real-time, rapidly changing data, processed quickly.
+- **Real-Time Learning**: Continuous model updating (online or continual learning) using new data for adaptation and improvement of model performance over time.
 
 ## Traditional ML vs Real-Time ML
 
