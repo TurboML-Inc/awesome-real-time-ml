@@ -328,9 +328,6 @@ Here's a curated list of awesome real-time machine learning blogs, videos, tools
 
    *Industry*: Technology, Internet Services, and Artificial Intelligence
 
-   - [Real-time ML analysis with TensorFlow, BigQuery, and Redpanda](https://www.redpanda.com/blog/real-time-machine-learning-processing-tensorflow-bigquery)
-     This tutorial demonstrates how to build a real-time machine learning analysis system for fraud detection using Google Cloud services.
-
    - [Real-time AI with Google Cloud Vertex AI](https://cloud.google.com/blog/products/ai-machine-learning/real-time-ai-with-google-cloud-vertex-ai)
      This blog post introduces Streaming Ingestion for Vertex AI Matching Engine and Feature Store, enabling real-time updates and low-latency retrieval of data for ML models.
 
@@ -343,8 +340,6 @@ Here's a curated list of awesome real-time machine learning blogs, videos, tools
    - [Real-time Data Infrastructure at Google](https://arxiv.org/pdf/2104.0087.pdf)
      This paper describes Google's real-time data infrastructure, which processes petabytes of data daily to support various use cases including customer incentives, fraud detection, and machine learning model predictions.
 
-   - [How Google Search ranking works](https://searchengineland.com/how-google-search-ranking-works-445141)
-      Google's search ranking system uses real-time machine learning components like NavBoost and Twiddlers to dynamically adjust search results based on user behavior and current events.
 
 7. **Spotify**
 
@@ -366,10 +361,10 @@ Here's a curated list of awesome real-time machine learning blogs, videos, tools
      This paper describes Spotify's real-time data infrastructure, which processes petabytes of data daily to support various use cases including customer incentives, fraud detection, and machine learning model predictions.
 
    - [The Rise (and Lessons Learned) of ML Models to Personalize Content on Home (Part I)](https://engineering.atspotify.com/2021/11/the-rise-and-lessons-learned-of-ml-models-to-personalize-content-on-home-part-i/)
-      Spotify's journey in implementing real-time ML models for personalized content recommendations on their Home page, including challenges in evaluation and automated deployment.
+      Spotify's journey in implementing real-time ML models for personalized content recommendations on their Home page, covering early challenges and system design.
 
    - [The Rise (and Lessons Learned) of ML Models to Personalize Content on Home (Part II)](https://engineering.atspotify.com/2021/11/the-rise-and-lessons-learned-of-ml-models-to-personalize-content-on-home-part-ii/)
-      Spotify's journey in implementing real-time ML models for personalized content recommendations on their Home page, including challenges in evaluation and automated deployment.
+      A follow-up on Spotify's ML personalization efforts, focusing on evaluation methods, automated deployment, and scaling challenges.
 
 8. **Instacart**
 
@@ -394,11 +389,13 @@ Here's a curated list of awesome real-time machine learning blogs, videos, tools
      This article discusses Instacart's distributed ML architecture, including parallel fulfillment ML jobs for real-time applications like batching, routing, and ETA prediction.
 
    - [Instacart's Item Availability Architecture: Solving for scale and consistency](https://tech.instacart.com/instacarts-item-availability-architecture-solving-for-scale-and-consistency-f5661acb20a6)
+     This article explains the architecture behind Instacart's real-time item availability system, designed for scalability and consistency in grocery stock predictions.
 
    - [Supercharging ML/AI Foundations at Instacart](https://tech.instacart.com/supercharging-ml-ai-foundations-at-instacart-d48214a2b511)
      This blog post discusses Instacart's efforts to improve their ML infrastructure, including faster feature onboarding and retrieval, which are crucial for real-time ML applications.
 
    - [Real-time Fraud Detection with Yoda and ClickHouse](https://tech.instacart.com/real-time-fraud-detection-with-yoda-and-clickhouse-bd08e9dbe3f4)
+      This article describes how Instacart built Yoda, a real-time fraud detection system powered by ClickHouse, to detect and prevent fraudulent transactions.
 
 9. **DoorDash**
 
@@ -490,6 +487,7 @@ Here's a curated list of awesome real-time machine learning blogs, videos, tools
       This blog post outlines Grab's use of AI and machine learning models for real-time automated decision-making to enhance customer experiences.
 
     - [Unsupervised graph anomaly detection - Catching new fraudulent behaviours](https://engineering.grab.com/graph-anomaly-model)
+       This article explores how Grab uses unsupervised graph anomaly detection techniques to identify new fraudulent behaviors in its platform. It covers the modeling approach, challenges, and real-world applications in fraud prevention.
 
 12. **Didact AI**
 
@@ -743,30 +741,75 @@ Here's a curated list of awesome real-time machine learning blogs, videos, tools
     [Watch here](https://dzone.com/events/video-library/apache-spark-and-apache-kafka=for-real-time-machine=learning)
 
 
-## Vendors / Platforms
 
-| Vendor | Description | Feature Store |
-|--------|-------------|---------------|
-| **[Tecton](https://www.tecton.ai/)** | Real-time Feature Platform offering Feature Engine, Feature Store, and Feature Repo for comprehensive Feature Management. Supports batch and streaming features, ensures data correctness, and provides low-latency serving for real-time ML applications. | Yes, integrated |
-| **[Hazelcast](https://hazelcast.com/)** | Unified Real-Time Data Platform with distributed compute engine and fast data store for Stream Processing. Enables real-time feature computation and model serving for ML applications. | Can integrate with external feature stores |
-| **[Hopsworks](https://www.hopsworks.ai/)** | Serverless Feature Store supporting both online and offline features for real-time ML. Includes Model Management, Vector Database, and data-mesh architecture for efficient feature serving. | Yes, core offering |
-| **[Iguazio](https://www.iguazio.com/)** | End-to-end platform focused on real-time ML and GenAI, offering Data Management, Development & CI/CD, Deployment, and Monitoring & LiveOps for ML models. | Yes, integrated |
-| **[Xenonstack](https://www.xenonstack.com/)** | End-to-end real-time analytics platform, offering IoT Analytics, Stream and Batch Processing Integration, and Streaming Visualization Solutions for real-time ML applications. | Not specified |
-| **[Abacus AI](https://abacus.ai/)** | Comprehensive platform offering LLMOps and MLOps solutions, including Custom Fine-Tunes, Vector Store, and AI Agent Workflow for real-time ML model deployment and serving. | Yes, Real-Time ML Feature Store |
-| **[Rockset](https://rockset.com/)** | Real-time analytics database offering fast search, filtering, aggregations, and joins using standard SQL. Enables real-time feature computation and model serving for ML applications. | Not specified |
-| **[Chalk AI](https://chalk.ai/)** | Data platform for real-time machine learning with feature pipelines, built-in scheduling, streaming, and caching for efficient feature computation and serving. | Yes, data source agnostic |
-| **[Fennel](https://fennel.ai/)** | Real-Time Feature Platform for authoring, computing, storing, serving, monitoring, and governing real-time and batch ML features. | Yes, integrated |
-| **[Featurebyte](https://www.featurebyte.com/)** | Feature Platform offering automatic feature generation, experimentation on live data, and AI data pipeline deployment for real-time ML applications. | Yes, integrated |
-| **[Featureform](https://www.featureform.com/)** | Open Source Feature Store for defining, managing, and deploying ML features in real-time. | Yes, core offering |
-| **[Molecula](https://www.molecula.com/)** | Data-centric AI infrastructure and database (Featurebase) with AI Automation and knowledge retrieval Platform (Ensemble) for real-time ML applications. | Yes, one of the first online feature stores |
-| **[Vespa](https://vespa.ai/)** | Fully featured search engine and vector database with cloud offering, providing real-time feature-store functionality for ML applications. | Yes, real-time feature-store functionality |
-| **[H2O.ai](https://h2o.ai/)** | Comprehensive AI platform offering solutions from MLOps to LLMOps and SLMs, including real-time feature management and automation for ML applications. | Yes, with feature management and automation |
-| **[SingleStore](https://www.singlestore.com/)** | Real-time data platform for reading, writing, and reasoning on petabyte-scale data, enabling real-time feature computation and model serving for ML applications. | Can be used as a feature store |
-| **[DataStax](https://www.datastax.com/)** | Suite of data management solutions built on Apache Cassandra for handling real-time data at scale, supporting real-time feature computation for ML models. | Can be used as a feature store |
-| **[DataRobot](https://www.datarobot.com/)** | Complete ML and GenAI platform with Automated Machine Learning and Feature Engineering, supporting real-time feature computation and model serving. | Can integrate with external feature stores |
-| **[Feast](https://feast.dev/)** | Open Source Feature Store, widely used and integrated with various ML projects and vendors for real-time feature serving. | Yes, core offering |
-| **[Bytewax](https://bytewax.io/)** | Open-source stream processing framework for building real-time data applications in Python, enabling real-time feature computation for ML models. | Can integrate with external feature stores |
-| **[Kaskada](https://kaskada.com/)** | Real-Time AI streaming engine offering real-time aggregation, event detection, and history replay for ML feature computation. | Yes, integrated |
+
+## A list of vendors that provide solutions for machine learning.
+
+### 🚀 Full-Stack ML Vendors
+*Vendors that offer end-to-end solutions covering feature engineering, model training, serving, and monitoring.*
+
+- **[TurboML](https://turboml.com/)** – A machine learning platform that's reinvented for real-time. All steps in the ML lifecycle - from data ingestion to feature engineering, model training, deployment, and post-deployment monitoring are designed to handle real-time data.
+
+  🔹 **Real-time Predictions** – Get fresh model outputs on-demand with low-latency online inference.  
+  🔹 **Real-time Features** – Transform recent data streams as live context for your models.  
+  🔹 **Continual Learning** – Update models dynamically with new data.  
+  🔹 **Streaming Integrations** – Natively supports real-time data sources.  
+
+  TurboML enables ML teams to iterate quickly by testing hypotheses on live production data. Whether refining ETA predictions based on ride completions or improving fraud detection using chargeback events, TurboML ensures models stay relevant and effective.  
+- **[Databricks](https://www.databricks.com/)** – Unified data and AI platform with Delta Live Tables for real-time ML workflows.
+- **[AWS SageMaker](https://aws.amazon.com/sagemaker/)** – Fully managed ML service with real-time feature ingestion, training, and model deployment.
+- **[Google Cloud Vertex AI](https://cloud.google.com/vertex-ai/)** – A fully managed ML platform that unifies data prep, training, and deployment with AutoML and custom model support for real-time inference.
+- **[Qwak](https://www.qwak.com/)** – An end-to-end AI platform that enables organizations to build, deploy, manage, and monitor machine learning workflows.
+- **[DataRobot](https://www.datarobot.com/)** – An AI platform that automates the end-to-end process of building, deploying, and maintaining machine learning models.
+- **[Abacus.ai](https://abacus.ai/)** – An end-to-end platform for building, deploying, and managing AI models with real-time data and automated monitoring.
+- **[Dataiku](https://www.dataiku.com/)** – An end-to-end AI platform that streamlines data preparation, model development, deployment, and governance for enterprises.
+- **[H2O.ai](https://h2o.ai/)** – An AI and machine learning platform providing tools for building, deploying, and managing models at scale with a focus on automation and high performance.
+- **[Iguazio](https://www.iguazio.com/)** – An AI platform that streamlines the deployment and management of machine learning applications, offering tools for pipeline orchestration, model monitoring, and GPU provisioning.
+- **[Xenonstack](https://www.xenonstack.com/)** – An advanced analytics platform offering end-to-end MLOps, data pipeline management, and AI-driven insights
+- **[Azure Machine Learning](https://azure.microsoft.com/en-us/products/machine-learning/)** – A comprehensive cloud-based platform for building, deploying, and managing ML models at scale.
+- **[Modzy](https://www.modzy.com/)** – A platform that enables organizations to deploy, connect, and run machine learning models across various environments, including enterprise systems and edge devices, offering fully managed infrastructure, tools, and workflows.
+- **[ZenML](https://zenml.io/)** – A framework designed to standardize and streamline machine learning workflows, enabling reproducibility, collaboration, and seamless deployment across diverse environments.
+- **[Valohai](https://valohai.com/)** – A machine learning platform for managing and automating ML workflows and deployments.
+- **[Datatron](https://www.datatron.com/)** – An MLOps platform for model management, deployment, and monitoring.
+- **[ClearML](https://clear.ml/)** – An MLOps platform designed to streamline the entire machine learning lifecycle.
+
+---
+
+### 📊 Feature Engineering & Feature Stores
+*Focus on feature storage, transformation, and real-time serving.*
+
+- **[Tecton](https://www.tecton.ai/)** – Real-time feature platform for ML, integrating feature storage, transformation, and serving.
+- **[Hopsworks](https://www.hopsworks.ai/)** – Feature store + ML pipeline orchestration for real-time ML.
+- **[Fennel](https://www.fennel.ai/)** – A real-time feature engineering platform with an efficient CDC-aware engine for fresh, incremental ML computations.
+- **[Chalk AI](https://www.chalk.ai/)** – A real-time platform for machine learning that enables data teams to declare features and their dependencies using idiomatic Python in online, streaming, and batch environments.
+- **[Featurebyte](https://www.featurebyte.ai/)** – A self-service platform that automates feature engineering and deployment for ML models.
+
+---
+
+### 🧪 ML Experiment Tracking & Model Management
+*Focus on tracking experiments, managing model versions, and monitoring performance.*
+
+- **[Weights & Biases](https://www.wandb.ai/)** – An AI developer platform that streamlines machine learning workflows, offering tools for experiment tracking, model management, and evaluation of generative AI applications. 
+- **[Comet](https://www.comet.ml/)** – A full-stack MLOps platform for tracking experiments, managing models, and deploying them to production.
+- **[Galileo](https://www.galileo.ai/)** – A platform that gives AI teams a way to evaluate, iterate, monitor and protect AI applications at enterprise scale.
+---
+
+### ⚡ Model Deployment & Inference
+*Focus on running, deploying, and serving machine learning models in production.*
+
+- **[Seldon](https://www.seldon.io/)** – An MLOps platform that enables organizations to deploy, manage, monitor, and explain machine learning models at scale
+- **[Fal.ai](https://www.fal.ai/)** – A platform for high-performance AI model inference and training, specializing in generative media with production-ready APIs and serverless deployment.
+- **[Modelbit](https://www.modelbit.com/)** – A platform for running machine learning models in production.
+
+---
+
+### 🏢 AI Integration & Operationalization
+*Focus on integrating AI into business applications and making insights accessible.*
+
+- **[AI Squared](https://www.aisquared.com/)** – A data and AI integration platform that helps make intelligent insights accessible to all.
+- **[MindsDB](https://www.mindsdb.com/)** – A platform that integrates various artificial intelligence (AI) models with traditional databases or other data management system
+
+
 
 ## Conferences
 
