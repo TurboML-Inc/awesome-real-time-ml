@@ -629,7 +629,42 @@ Real-time Machine Learning (ML) delivers predictions and adapts models with extr
 
     - [Beyond prediction machines](https://building.nubank.com.br/beyond-prediction-machines/)
       Nubank explores causal inference techniques beyond traditional ML for real-time decision-making in credit limits, interest rates, and marketing strategies.
-      
+
+19. **Replit**
+
+    *Industry*: Developer Tools, AI-Powered Coding Platforms
+
+    - [Replit launches the first software creation Agent on iOS and Android](https://blog.replit.com/try-agent)  
+      This blog highlights Replit Agent, an AI tool that allows users to build, deploy, and host apps in real time using natural language commands, directly from their phones.
+
+    - [Built SaaS in Just 10 Minutes Using AI with Replit Agent](https://www.protonbits.com/built-saas-with-replit-agent/)  
+      This article demonstrates how Replit Agent enables real-time development of SaaS applications, including features like inventory tracking and real-time alerts, with minimal user input.
+
+    - [Collaborative Coding: Real-Time Collaboration on Replit](https://lablab.ai/tech/replit)  
+      Replit's collaborative coding feature allows multiple users to work on the same project in real time, similar to Google Docs but for programming. This is ideal for pair programming and educational use cases.
+
+    - [Ghostwriter AI & Complete Code Beta](https://blog.replit.com/ai)  
+      Ghostwriter is an AI-powered pair programmer integrated into Replit that provides real-time code suggestions, transformations, and explanations to enhance productivity.
+
+    - [34x Growth in AI Projects: The Rise of Real-Time Development on Replit](https://blog.replit.com/ai-on-replit)  
+      This blog discusses how Replit has become a central platform for real-time AI development, enabling developers to create and deploy applications instantly.
+
+20. **Noon**
+
+    *Industry*: E-commerce
+
+    - [Noon.com Case Study - Google Cloud](https://cloud.google.com/customers/noon-com)  
+      This case study explains how Noon leverages Google Cloud's infrastructure, including BigQuery and Recommendations AI, to deliver real-time personalized shopping experiences, optimize inventory, and handle traffic spikes during peak events like Yellow Friday.
+
+    - [Noon Intelligence Software - Real-Time Monitoring and Alerts](https://www.datavio.co/products/noon-intelligence-software)  
+      This resource highlights Noon’s use of real-time category intelligence, price monitoring, and availability alerts to enhance customer experience and ensure optimal product visibility.
+
+    - [How Noon Became an E-commerce Giant in UAE](https://akshatsinghbisht.com/how-noon-became-an-ecommerce-giant-in-uae/)  
+      This article explores how Noon uses AI and machine learning to power its recommendation engine, optimize pricing in real time, and improve inventory management for a seamless customer experience.
+
+    - [Role of Predictive Analytics in Shaping UAE's Retail and E-commerce Future](https://copperdigital.com/blog/role-of-predictive-analytics-in-shaping-uaes-retail-and-ecommerce-future/)  
+      This blog discusses how Noon employs predictive analytics to enhance its recommendation engine, enabling personalized shopping experiences and improving customer satisfaction.
+
 
 ## Videos
 
