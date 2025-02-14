@@ -665,6 +665,52 @@ Real-time Machine Learning (ML) delivers predictions and adapts models with extr
     - [Role of Predictive Analytics in Shaping UAE's Retail and E-commerce Future](https://copperdigital.com/blog/role-of-predictive-analytics-in-shaping-uaes-retail-and-ecommerce-future/)  
       This blog discusses how Noon employs predictive analytics to enhance its recommendation engine, enabling personalized shopping experiences and improving customer satisfaction.
 
+21. **Lyft**
+
+    *Industry*: Ridesharing, Mobility-as-a-Service
+
+    - [Powering Millions of Real-Time Decisions with LyftLearn Serving](https://eng.lyft.com/powering-millions-of-real-time-decisions-with-lyftlearn-serving-9bb1f73318dc)  
+      This blog explains how Lyft’s platform, LyftLearn Serving, powers hundreds of millions of real-time decisions daily for use cases like price optimization, ETA prediction, and fraud detection, with a focus on managing both data and control planes.
+
+    - [Building Real-Time Machine Learning Foundations at Lyft](https://eng.lyft.com/building-real-time-machine-learning-foundations-at-lyft-6dd99b385a4e)  
+      This article discusses Lyft's initiative to integrate streaming data into its ML workflows, enabling real-time anomaly detection, event-driven decisions, and enhanced traffic infrastructure using geohash aggregation.
+
+    - [ML Feature Serving Infrastructure at Lyft](https://eng.lyft.com/ml-feature-serving-infrastructure-at-lyft-d30bf2d3c32a)  
+      This post details the architecture of Lyft’s Feature Service, which supports real-time feature availability for online inference with single-digit millisecond latency, serving millions of requests per minute.
+
+    - [Real-Time ML with Beam at Lyft](https://beam.apache.org/case-studies/lyft/)  
+      Lyft uses Apache Beam to power real-time ML pipelines for critical functions like dynamic pricing, ETA prediction, and traffic-aware routing. The infrastructure processes millions of events per minute with sub-second latency.
+
+    - [How Lyft Uses AI to Get You Where You Want to Go Faster](https://www.lyft.com/blog/posts/how-lyft-uses-ai-to-get-you-where-you-want-to-go-faster)  
+      This blog highlights how Lyft uses machine learning to provide real-time ETA predictions, dynamic routing based on live traffic data, and personalized destination suggestions based on user behavior.
+
+    - [How Lyft Stores the Data Powering Their ML Models](https://blog.quastor.org/p/lyft-stores-data-powering-ml-models)  
+      This article explains how Lyft ensures low-latency access to feature data for both training and real-time inference by hosting thousands of features in its Feature Serving service.
+
+    - [ETA (Estimated Time of Arrival) Reliability at Lyft](https://eng.lyft.com/eta-estimated-time-of-arrival-reliability-at-lyft-d4ca2720bda8)  
+      Lyft leverages real-time ML to enhance ETA reliability by dynamically analyzing driver availability, traffic, and marketplace conditions, with continuous model updates to adapt to changing environments.
+
+    - [The Recommendation System at Lyft](https://eng.lyft.com/the-recommendation-system-at-lyft-67bc9dcc1793)  
+      Lyft’s recommendation system uses real-time ML to dynamically rank ride modes, adapt to marketplace conditions, and personalize user experiences while exploring reinforcement learning for continuous improvement.
+
+    - [Pricing at Lyft](https://eng.lyft.com/pricing-at-lyft-8a4022065f8b)  
+      Lyft’s pricing system leverages real-time ML with online reinforcement learning to dynamically optimize prices, balancing supply and demand while adapting to market conditions.
+
+    - [How Lyft Predicts a Rider’s Destination for Better In-App Experience](https://eng.lyft.com/how-lyft-predicts-your-destination-with-attention-791146b0a439)  
+      Lyft’s destination prediction system leverages real-time ML and attention mechanisms to dynamically suggest personalized destinations based on historical rides and session context.
+
+    - [How Lyft Creates Hyper-Accurate Maps from Open-Source Maps and Real-Time Data](https://eng.lyft.com/how-lyft-creates-hyper-accurate-maps-from-open-source-maps-and-real-time-data-8dcf9abdd46a)  
+      Lyft uses real-time ML with GPS data and map-matching algorithms to detect and correct map errors, creating hyper-accurate maps for efficient routing and localization.
+
+    - [Building Lyft’s Marketing Automation Platform](https://eng.lyft.com/lyft-marketing-automation-b43b7b7537cc)  
+      Lyft’s Symphony platform uses real-time ML and reinforcement learning to optimize marketing decisions, dynamically allocate budgets, and improve campaign performance at scale.
+
+    - [Fingerprinting Fraudulent Behavior](https://eng.lyft.com/fingerprinting-fraudulent-behavior-6663d0264fad)  
+      Lyft uses real-time ML with deep learning architectures to detect fraudulent behavior by analyzing sequential user activity logs and dynamically identifying anomalies.
+
+    - [From Shallow to Deep Learning in Fraud](https://eng.lyft.com/from-shallow-to-deep-learning-in-fraud-9dafcbcef743)  
+      Lyft employs real-time ML with deep learning models to detect fraud dynamically, leveraging sequential user behavior and advanced infrastructure for scalable prototype-to-production workflows.
+
 
 ## Videos
 
