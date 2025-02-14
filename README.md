@@ -840,6 +840,20 @@ Real-time Machine Learning (ML) delivers predictions and adapts models with extr
 | **[AI & Big Data Expo North America 2025](https://www.ai-expo.net/northamerica/)** | June 4-5, 2025 | Santa Clara | In-person |
 | **[Data Innovation Summit 2025](https://datainnovationsummit.com/)** | May 7-8, 2025 | Kistamässan, Stockholm | Hybrid |
 | **[Machine Learning Prague 2025](https://www.mlprague.com/)** | April 28, 2025 | Prague | Hybrid |
+| **[[HumanX](https://www.humanx.co/)](pplx://action/followup)** | March 9-13, 2025 | Fontainebleau Las Vegas | In-person |
+| **[[Current Bengaluru](https://current.confluent.io/bengaluru)](pplx://action/followup)** | March 19, 2025 | Bengaluru | In-person |
+| **[[Current London](https://current.confluent.io/london)](pplx://action/followup)** | May 20-21, 2025 | London | In-person |
+| **[[MLConf](https://mlconf.com/)](pplx://action/followup)** | March 27, 2025 | New York | In-person |
+| **[[Data Council](https://www.datacouncil.ai/bay-2025)](pplx://action/followup)** | April 22-24, 2025 | San Francisco | In-person |
+| **[[SuperAI](https://www.superai.com/)](pplx://action/followup)** | June 18-19, 2025 | Singapore | In-person |
+| **[[RAISE Summit](https://www.raisesummit.com/)](pplx://action/followup)** | July 8-9, 2025 | Paris | In-person |
+| **[[Data Science Salon SEA](https://www.datascience.salon/seattle/)](pplx://action/followup)** | April 16, 2025 | Seattle | Hybrid |
+| **[[Smart Data and AI Summit](https://saudi.smartdataseries.com/)](pplx://action/followup)** | May 5-6, 2025 | Riyadh | In-person |
+| **[[Data Science Next Conference Europe](https://dscnextcon.com/)](pplx://action/followup)** | May 7-9, 2025 | Amsterdam | In-person |
+| **[[London Tech Week](https://londontechweek.com/)](pplx://action/followup)** | June 9-13, 2025 | London, UK | In-person |
+| **[[The MachineCon by AIM](https://machinecon.aimresearch.co/)](pplx://action/followup)** | July 25, 2025 | New York | In-person |
+| **[[Ai4](https://ai4.io/vegas/)](pplx://action/followup)** | August 11-13, 2025 | Las Vegas, USA | In-person |
+
 
 
 ## Contributing
