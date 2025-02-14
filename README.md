@@ -845,11 +845,11 @@ Real-time Machine Learning (ML) delivers predictions and adapts models with extr
 | **[Current London](https://current.confluent.io/london)** | May 20-21, 2025 | London | Onsite |
 | **[AI & Big Data Expo North America 2025](https://www.ai-expo.net/northamerica/)** | June 4-5, 2025 | Santa Clara | Onsite |
 | **[Data + AI Summit 2025](https://www.databricks.com/dataaisummit)** | June 9-12, 2025 | San Francisco | Hybrid |
-| **[London Tech Week](https://londontechweek.com/)** | June 9-13, 2025 | London, UK | Onsite |
+| **[London Tech Week](https://londontechweek.com/)** | June 9-13, 2025 | London | Onsite |
 | **[SuperAI](https://www.superai.com/)** | June 18-19, 2025 | Singapore | Onsite |
 | **[RAISE Summit](https://www.raisesummit.com/)** | July 8-9, 2025 | Paris | Onsite |
 | **[The MachineCon by AIM](https://machinecon.aimresearch.co/)** | July 25, 2025 | New York | Onsite |
-| **[Ai4](https://ai4.io/vegas/)** | August 11-13, 2025 | Las Vegas, USA | Onsite |
+| **[Ai4](https://ai4.io/vegas/)** | August 11-13, 2025 | Las Vegas | Onsite |
 
 
 ## Contributing
