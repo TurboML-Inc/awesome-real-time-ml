@@ -711,6 +711,71 @@ Real-time Machine Learning (ML) delivers predictions and adapts models with extr
     - [From Shallow to Deep Learning in Fraud](https://eng.lyft.com/from-shallow-to-deep-learning-in-fraud-9dafcbcef743)  
       Lyft employs real-time ML with deep learning models to detect fraud dynamically, leveraging sequential user behavior and advanced infrastructure for scalable prototype-to-production workflows.
 
+22. **Wayfair**
+
+    *Industry*: E-commerce, Furniture & Home Goods
+
+    - [How Vertex AI Helps Wayfair Achieve Real-Time Model Serving](https://cloud.google.com/blog/products/ai-machine-learning/how-vertex-ai-helps-wayfair-achieve-real-time-model-serving/)  
+      This blog details how Wayfair transitioned from batch inference to real-time model serving using Vertex AI, reducing deployment time from a month to an hour while maintaining safeguards and automation.
+
+    - [Agent Co-Pilot: Wayfair's Gen-AI Assistant for Digital Sales Agents](https://www.aboutwayfair.com/careers/tech-blog/agent-co-pilot-wayfairs-gen-ai-assistant-for-digital-sales-agents)  
+      Wayfair's Agent Co-Pilot provides live, contextually relevant chat response recommendations to assist sales agents in real time, improving customer service and reducing handle time by 10%.
+
+    - [How Wayfair Improves Its Feature Engineering with Vertex AI](https://cloud.google.com/blog/products/ai-machine-learning/how-wayfair-improves-its-feature-engineering-with-vertex-ai/)  
+      This article explains how Wayfair uses Vertex AI Feature Store and Pipelines to ensure real-time feature freshness and consistency between training and production environments, enabling low-latency inference.
+
+    - [Wayfair Uses MLOps with Vertex AI Pipelines to Improve Supply Chain](https://cloud.google.com/blog/products/ai-machine-learning/wayfair-uses-mlops-with-vertex-ai-pipelines-to-improve-supply-chain/)  
+      This blog explores how Wayfair migrated its supply chain ML workflows to Vertex AI Pipelines, enabling real-time data ingestion, model training, evaluation, and inference for better agility and efficiency.
+
+    - [Wayfair Debuts Muse: AI-Powered Search and Discovery Tool](https://www.digitalcommerce360.com/2025/02/11/wayfair-debuts-muse-ai-powered-search-discovery-tool/)  
+      Muse is an AI-driven tool that uses generative models to provide real-time search and discovery experiences, allowing users to upload images and reimagine their spaces with personalized recommendations.
+
+    - [Wayfair CTO on Bringing AI Into the Virtual Living Room](https://www.pymnts.com/news/retail/2025/wayfair-cto-on-bringing-ai-into-the-virtual-living-room/)  
+      This article discusses how Wayfair leverages generative AI for features like Decorify, which provides real-time room visualizations based on user-uploaded images, enhancing the shopping experience.
+
+    - [Diving Into Wayfair's Machine Learning Odyssey](https://www.techtarget.com/searchenterpriseai/podcast/Diving-into-Wayfairs-machine-learning-odyssey)  
+      This podcast highlights Wayfair's journey in adopting machine learning for real-time pricing algorithms, marketing optimization, and generative AI tools like Decorify for personalized shopping experiences.
+
+    - [Griffin: How Wayfair Leverages Reinforcement Learning to Send Customers Relevant Communications](https://www.aboutwayfair.com/careers/tech-blog/griffin-how-wayfair-leverages-reinforcement-learning-to-send-customers-relevant-communications)  
+      Wayfair's Griffin leverages real-time ML with reinforcement learning to optimize personalized notification decisions, dynamically adapting to customer behavior and feedback.
+
+23. **Airbnb**
+
+    *Industry*: Travel Services, Hospitality
+
+    - [Airbnb Open-Sources its ML Feature Platform Chronon](https://www.infoq.com/news/2024/04/airbnb-chronon-open-sourced/)  
+      This blog post discusses Chronon, Airbnb's open-source platform for transforming raw data into machine learning-ready features, enabling real-time feature engineering and operationalization.
+
+    - [StreamAlert: Real-Time Data Analysis and Alerting](https://airbnb.io/projects/streamalert)  
+      StreamAlert is a serverless framework developed by Airbnb for real-time data analysis and alerting, designed to handle high-throughput data streams efficiently.
+
+    - [How Airbnb Uses Machine Learning for Smart Dynamic Pricing](https://www.linkedin.com/pulse/how-airbnb-uses-machine-learning-smart-dynamic-pricing-umadevi-r-q7naf)  
+      This article explains how Airbnb leverages machine learning to implement dynamic pricing, analyzing real-time and historical data to provide optimal pricing recommendations for hosts.
+
+    - [Production Implementation of Real-Time Intent Classification at Airbnb](https://aman.ai/hidden/airbnb/)  
+      This resource details how Airbnb uses its Bighead infrastructure and Deep Thought inference system for real-time classification of guest messages, improving response times and communication efficiency.
+
+    - [Feature Engineering at Airbnb Using Chronon](https://www.infoq.com/news/2023/08/airbnb-chronon-ml-features/)  
+      An in-depth look at how Airbnb uses Chronon for feature engineering, focusing on transforming raw data into actionable ML features in real time.
+
+    - [Real-Time Aggregation Features for Machine Learning](https://www.tecton.ai/blog/real-time-aggregation-features-for-machine-learning-part-2/)  
+      This blog explores approaches to solving challenges in using real-time aggregation features for machine learning, relevant to platforms like Airbnb.
+
+    - [How Airbnb Processes a Million User Events Every Second](https://blog.quastor.org/p/how-airbnb-processes-a-million-user-events-every-second)  
+      This blog explains Airbnb's User Signals Platform, which processes over 1 million user events per second with low latency, enabling real-time insights for recommendations and personalization.
+
+    - [Dynamic Pricing at Airbnb with Real-Time Adjustments](https://digitaldefynd.com/IQ/airbnb-using-ai-case-study/)  
+      This article highlights Airbnb’s AI-driven dynamic pricing model that adjusts rental prices in real time based on demand fluctuations and market conditions.
+
+    - [How Airbnb Uses Machine Learning to Optimize Travel](https://d3.harvard.edu/platform-rctom/submission/airbnb-utilizing-machine-learning-to-optimize-travel/)  
+      This resource details how Airbnb personalizes search rankings and optimizes pricing in near real time using machine learning algorithms.
+
+    - [Building Airbnb Categories with ML and Human-in-the-Loop](https://medium.com/airbnb-engineering/building-airbnb-categories-with-ml-and-human-in-the-loop-e97988e70ebb)  
+      Airbnb leverages real-time ML with human-in-the-loop systems to dynamically categorize and rank listings, using continuous feedback and adaptive algorithms to enhance user experience.
+
+    - [Machine Learning-Powered Search Ranking of Airbnb Experiences](https://medium.com/airbnb-engineering/machine-learning-powered-search-ranking-of-airbnb-experiences-110b4b1a0789)  
+      Airbnb's search ranking system for Experiences leverages real-time ML through online scoring infrastructure, enabling dynamic personalization and adaptive ranking based on live user inputs and preferences.
+
 
 ## Videos
 
